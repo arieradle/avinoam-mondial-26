@@ -9,9 +9,9 @@ export default function ResultsTab({ matches }) {
   return (
     <div className="tab-pane">
       <section className="section">
-        <h2>📊 RECENT RESULTS</h2>
+        <div className="section-title">📊 Recent Results</div>
         {completed.length === 0 ? (
-          <p style={{ color: '#999', textAlign: 'center' }}>No results yet</p>
+          <div className="empty-state empty-results">No results yet</div>
         ) : (
           <div className="matches-list">
             {completed.map(m => <MatchItem key={m.id} match={m} />)}

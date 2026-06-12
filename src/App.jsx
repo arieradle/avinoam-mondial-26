@@ -35,7 +35,7 @@ export default function App() {
     return () => clearInterval(id)
   }, [])
 
-  if (!data) return <div className="loading">⚽ Loading World Cup data...</div>
+  if (!data) return <div className="loading">Loading World Cup data...</div>
 
   return (
     <div className="container">

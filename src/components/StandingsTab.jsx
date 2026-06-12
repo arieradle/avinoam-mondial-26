@@ -1,18 +1,19 @@
 import { getFlag } from '../utils'
 
-const GROUPS = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I']
+const GROUPS = ['A','B','C','D','E','F','G','H','I']
+const MEDALS = ['🥇','🥈','🥉']
 
 export default function StandingsTab({ standings, currentGroup, setCurrentGroup }) {
-  const availableGroups = GROUPS.filter(g => standings[g]?.length > 0)
-  const groupData = standings[currentGroup] ?? []
+  const available = GROUPS.filter(g => standings[g]?.length > 0)
+  const rows = standings[currentGroup] ?? []
 
   return (
     <div className="tab-pane">
       <section className="section">
-        <h2>🏆 GROUP STANDINGS</h2>
+        <div className="section-title">🏆 Group Standings</div>
 
         <div className="group-tabs">
-          {availableGroups.map(g => (
+          {available.map(g => (
             <button
               key={g}
               className={`group-btn${currentGroup === g ? ' active' : ''}`}
@@ -23,35 +24,41 @@ export default function StandingsTab({ standings, currentGroup, setCurrentGroup 
           ))}
         </div>
 
-        {groupData.length === 0 ? (
-          <p style={{ color: '#999', textAlign: 'center' }}>No standings data for Group {currentGroup}</p>
+        {rows.length === 0 ? (
+          <div className="empty-state">No data for Group {currentGroup}</div>
         ) : (
-          <table className="standings-table">
-            <thead>
-              <tr>
-                <th>#</th>
-                <th>Team</th>
-                <th>P</th>
-                <th>W</th>
-                <th>D</th>
-                <th>L</th>
-                <th>Pts</th>
-              </tr>
-            </thead>
-            <tbody>
-              {groupData.map((team, i) => (
-                <tr key={team.team}>
-                  <td><strong>{i + 1}</strong></td>
-                  <td><strong>{getFlag(team.team)} {team.team}</strong></td>
-                  <td>{team.played}</td>
-                  <td>{team.wins}</td>
-                  <td>{team.draws}</td>
-                  <td>{team.losses}</td>
-                  <td><strong>{team.points}</strong></td>
+          <div className="standings-wrap">
+            <table className="standings-table">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Team</th>
+                  <th>P</th>
+                  <th>W</th>
+                  <th>D</th>
+                  <th>L</th>
+                  <th>Pts</th>
                 </tr>
-              ))}
-            </tbody>
-          </table>
+              </thead>
+              <tbody>
+                {rows.map((team, i) => (
+                  <tr key={team.team}>
+                    <td><span className="rank">{MEDALS[i] ?? i + 1}</span></td>
+                    <td>
+                      <div className="team-cell">
+                        {getFlag(team.team)} {team.team}
+                      </div>
+                    </td>
+                    <td>{team.played}</td>
+                    <td>{team.wins}</td>
+                    <td>{team.draws}</td>
+                    <td>{team.losses}</td>
+                    <td><span className="pts">{team.points}</span></td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
         )}
       </section>
     </div>

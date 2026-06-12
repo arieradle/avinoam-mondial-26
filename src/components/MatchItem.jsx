@@ -2,21 +2,33 @@ import { getFlag } from '../utils'
 
 export default function MatchItem({ match }) {
   const { homeTeam, awayTeam, homeScore, awayScore, status, time } = match
-  const score = homeScore !== null && homeScore !== undefined
-    ? `${homeScore} - ${awayScore}`
-    : '-'
-  const statusLabel = status === 'completed' ? '✓' : status === 'live' ? '🔴 LIVE' : '📅'
+  const hasScore = homeScore !== null && homeScore !== undefined
+
+  const badge =
+    status === 'live'      ? <span className="badge badge-live">● Live</span> :
+    status === 'completed' ? <span className="badge badge-completed">FT</span> :
+                             <span className="badge badge-upcoming">Soon</span>
 
   return (
     <div className={`match-item ${status}`}>
-      <div className="match-teams-info">
-        <span className="team-name">{getFlag(homeTeam)} {homeTeam}</span>
-        <span className="match-score">{score}</span>
-        <span className="team-name">{awayTeam} {getFlag(awayTeam)}</span>
+      <div className="match-team home">
+        <span className="match-name">{homeTeam}</span>
+        <span className="match-flag">{getFlag(homeTeam)}</span>
       </div>
-      <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-        <span className={`match-status status-${status}`}>{statusLabel}</span>
-        <span className="match-time">{time}</span>
+
+      <div className="match-center">
+        <div className={`match-scoreline${hasScore ? '' : ' pending'}`}>
+          {hasScore ? `${homeScore} – ${awayScore}` : '–'}
+        </div>
+        <div className="match-meta">
+          {badge}
+          <span className="match-time-label">{time}</span>
+        </div>
+      </div>
+
+      <div className="match-team away">
+        <span className="match-flag">{getFlag(awayTeam)}</span>
+        <span className="match-name">{awayTeam}</span>
       </div>
     </div>
   )

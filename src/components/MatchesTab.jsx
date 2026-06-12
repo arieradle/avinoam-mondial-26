@@ -8,9 +8,9 @@ export default function MatchesTab({ matches }) {
   return (
     <div className="tab-pane">
       <section className="section">
-        <h2>📅 TODAY'S MATCHES</h2>
+        <div className="section-title">📅 Today's Matches</div>
         {todayMatches.length === 0 ? (
-          <p style={{ color: '#999', textAlign: 'center' }}>No matches today</p>
+          <div className="empty-state empty-today">No matches today</div>
         ) : (
           <div className="matches-list">
             {todayMatches.map(m => <MatchItem key={m.id} match={m} />)}

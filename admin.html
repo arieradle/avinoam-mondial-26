@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🔐 Admin Panel - World Cup Tracker</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+      padding: 30px;
+    }
+
+    h1 {
+      color: #ff6b6b;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    h2 {
+      color: #333;
+      margin-top: 30px;
+      margin-bottom: 15px;
+      border-bottom: 2px solid #ff6b6b;
+      padding-bottom: 10px;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bold;
+      color: #333;
+    }
+
+    input, select {
+      width: 100%;
+      padding: 10px;
+      border: 2px solid #ddd;
+      border-radius: 8px;
+      font-size: 1rem;
+      transition: border-color 0.3s;
+    }
+
+    input:focus, select:focus {
+      outline: none;
+      border-color: #ff6b6b;
+    }
+
+    button {
+      background: linear-gradient(135deg, #ff6b6b 0%, #ee5a6f 100%);
+      color: white;
+      padding: 12px 30px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 1rem;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 5px 15px rgba(255, 107, 107, 0.4);
+    }
+
+    .matches-list {
+      display: grid;
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .match-card {
+      background: #f9f9f9;
+      border: 2px solid #e0e0e0;
+      border-radius: 8px;
+      padding: 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 15px;
+      align-items: end;
+    }
+
+    .match-card input {
+      margin-bottom: 0;
+    }
+
+    .match-info {
+      grid-column: 1 / -1;
+      font-weight: bold;
+      color: #333;
+      font-size: 1.1rem;
+    }
+
+    .success {
+      background: #4caf50;
+      color: white;
+      padding: 15px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      animation: fadeOut 3s forwards;
+    }
+
+    @keyframes fadeOut {
+      0% { opacity: 1; }
+      90% { opacity: 1; }
+      100% { opacity: 0; }
+    }
+
+    .error {
+      background: #f44336;
+      color: white;
+      padding: 15px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 15px;
+    }
+
+    @media (max-width: 768px) {
+      .grid-2 {
+        grid-template-columns: 1fr;
+      }
+
+      .match-card {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-bottom: 20px;
+      color: #ff6b6b;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .back-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="/" class="back-link">← Back to Tracker</a>
+    
+    <h1>🔐 Admin Panel</h1>
+    <p style="text-align: center; color: #666; margin-bottom: 30px;">Update match results and manage data</p>
+
+    <div id="message"></div>
+
+    <!-- Update Matches Section -->
+    <h2>📊 Update Match Results</h2>
+    <div class="matches-list" id="matchesList">
+      <!-- Populated by JavaScript -->
+    </div>
+
+    <!-- Add/Edit Matches Section -->
+    <h2>➕ Add a New Match</h2>
+    <form id="newMatchForm">
+      <div class="grid-2">
+        <div class="form-group">
+          <label>Home Team</label>
+          <input type="text" id="newHomeTeam" placeholder="e.g., Argentina" required>
+        </div>
+        <div class="form-group">
+          <label>Away Team</label>
+          <input type="text" id="newAwayTeam" placeholder="e.g., Brazil" required>
+        </div>
+      </div>
+
+      <div class="grid-2">
+        <div class="form-group">
+          <label>Date (YYYY-MM-DD)</label>
+          <input type="date" id="newDate" required>
+        </div>
+        <div class="form-group">
+          <label>Time (HH:MM)</label>
+          <input type="time" id="newTime" required>
+        </div>
+      </div>
+
+      <div class="grid-2">
+        <div class="form-group">
+          <label>Group</label>
+          <select id="newGroup" required>
+            <option value="">-- Select Group --</option>
+            <option value="A">Group A</option>
+            <option value="B">Group B</option>
+            <option value="C">Group C</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Status</label>
+          <select id="newStatus" required>
+            <option value="upcoming">Upcoming</option>
+            <option value="live">Live</option>
+            <option value="completed">Completed</option>
+          </select>
+        </div>
+      </div>
+
+      <button type="submit">Add Match</button>
+    </form>
+
+    <!-- Quick Actions -->
+    <h2>⚙️ Quick Actions</h2>
+    <button onclick="clearAllResults()">Clear All Scores</button>
+    <button onclick="downloadData()">Download Data</button>
+  </div>
+
+  <script>
+    async function loadMatches() {
+      try {
+        const response = await fetch('/api/data');
+        const data = await response.json();
+        renderMatches(data.matches);
+      } catch (error) {
+        showMessage('Error loading matches: ' + error.message, 'error');
+      }
+    }
+
+    function renderMatches(matches) {
+      const container = document.getElementById('matchesList');
+      container.innerHTML = matches.map(match => `
+        <div class="match-card">
+          <div class="match-info">
+            ${match.homeTeam} vs ${match.awayTeam} - ${match.date} ${match.time}
+          </div>
+          <div class="form-group">
+            <label>Home Score</label>
+            <input type="number" id="score-${match.id}-home" value="${match.homeScore || ''}" placeholder="0">
+          </div>
+          <div class="form-group">
+            <label>Away Score</label>
+            <input type="number" id="score-${match.id}-away" value="${match.awayScore || ''}" placeholder="0">
+          </div>
+          <div class="form-group">
+            <label>Status</label>
+            <select id="status-${match.id}">
+              <option value="upcoming" ${match.status === 'upcoming' ? 'selected' : ''}>Upcoming</option>
+              <option value="live" ${match.status === 'live' ? 'selected' : ''}>Live</option>
+              <option value="completed" ${match.status === 'completed' ? 'selected' : ''}>Completed</option>
+            </select>
+          </div>
+          <button onclick="updateMatch(${match.id})">Save</button>
+        </div>
+      `).join('');
+    }
+
+    async function updateMatch(matchId) {
+      const homeScore = document.getElementById(`score-${matchId}-home`).value;
+      const awayScore = document.getElementById(`score-${matchId}-away`).value;
+      const status = document.getElementById(`status-${matchId}`).value;
+
+      try {
+        const response = await fetch('/api/update-match', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            matchId,
+            homeScore: homeScore ? parseInt(homeScore) : null,
+            awayScore: awayScore ? parseInt(awayScore) : null,
+            status
+          })
+        });
+
+        if (response.ok) {
+          showMessage(`Match ${matchId} updated successfully!`, 'success');
+          loadMatches();
+        } else {
+          showMessage('Error updating match', 'error');
+        }
+      } catch (error) {
+        showMessage('Error: ' + error.message, 'error');
+      }
+    }
+
+    function showMessage(msg, type) {
+      const messageDiv = document.getElementById('message');
+      messageDiv.innerHTML = `<div class="${type}">${msg}</div>`;
+    }
+
+    function clearAllResults() {
+      if (confirm('⚠️ Are you sure you want to clear all scores?')) {
+        // Implement as needed
+        showMessage('Feature coming soon', 'error');
+      }
+    }
+
+    function downloadData() {
+      fetch('/api/data')
+        .then(r => r.json())
+        .then(data => {
+          const link = document.createElement('a');
+          link.href = 'data:text/json;charset=utf-8,' + encodeURIComponent(JSON.stringify(data, null, 2));
+          link.download = 'world-cup-data.json';
+          link.click();
+          showMessage('Data downloaded successfully!', 'success');
+        });
+    }
+
+    document.getElementById('newMatchForm').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      // This would require backend implementation
+      showMessage('Feature coming soon - manual edit of data.json for now', 'error');
+    });
+
+    loadMatches();
+  </script>
+</body>
+</html>

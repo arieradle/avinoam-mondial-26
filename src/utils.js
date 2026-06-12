@@ -1,8 +1,18 @@
 const FLAGS = {
-  Argentina: '🇦🇷', Spain: '🇪🇸', USA: '🇺🇸', Brazil: '🇧🇷',
-  Germany: '🇩🇪', France: '🇫🇷', Portugal: '🇵🇹', Poland: '🇵🇱',
-  Mexico: '🇲🇽', Canada: '🇨🇦', Morocco: '🇲🇦', England: '🏴󠁧󠁢󠁥󠁮󠁧󠁿',
-  Netherlands: '🇳🇱', Italy: '🇮🇹', Japan: '🇯🇵', Australia: '🇦🇺',
+  // Group stage teams (using API shortName values)
+  Argentina: '🇦🇷',   Spain: '🇪🇸',        USA: '🇺🇸',         Brazil: '🇧🇷',
+  Germany: '🇩🇪',     France: '🇫🇷',        Portugal: '🇵🇹',    Poland: '🇵🇱',
+  Mexico: '🇲🇽',      Canada: '🇨🇦',        Morocco: '🇲🇦',     England: '🏴󠁧󠁢󠁥󠁮󠁧󠁿',
+  Netherlands: '🇳🇱', Japan: '🇯🇵',         Australia: '🇦🇺',   Italy: '🇮🇹',
+  Algeria: '🇩🇿',     Austria: '🇦🇹',       Belgium: '🇧🇪',     'Bosnia-H.': '🇧🇦',
+  'Cape Verde': '🇨🇻','Colombia': '🇨🇴',    'Congo DR': '🇨🇩',  Croatia: '🇭🇷',
+  'Curaçao': '🇨🇼',   Czechia: '🇨🇿',       Ecuador: '🇪🇨',     Egypt: '🇪🇬',
+  Ghana: '🇬🇭',       Haiti: '🇭🇹',         Iran: '🇮🇷',        Iraq: '🇮🇶',
+  'Ivory Coast': '🇨🇮', Jordan: '🇯🇴',      'Korea Republic': '🇰🇷', 'New Zealand': '🇳🇿',
+  Norway: '🇳🇴',      Panama: '🇵🇦',        Paraguay: '🇵🇾',    Qatar: '🇶🇦',
+  'Saudi Arabia': '🇸🇦', Scotland: '🏴󠁧󠁢󠁳󠁣󠁴󠁿', Senegal: '🇸🇳', 'South Africa': '🇿🇦',
+  Sweden: '🇸🇪',      Switzerland: '🇨🇭',   Tunisia: '🇹🇳',     Turkey: '🇹🇷',
+  Ukraine: '🇺🇦',     Uruguay: '🇺🇾',       Uzbekistan: '🇺🇿',  'New Caledonia': '🇳🇨',
 }
 
 export function getFlag(team) {

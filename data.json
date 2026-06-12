@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-12T20:02:44.341Z",
+  "lastUpdated": "2026-06-12T22:04:53.738Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -38,9 +38,9 @@
       "id": 537333,
       "homeTeam": "Canada",
       "awayTeam": "Bosnia-H.",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 1,
-      "status": "live",
+      "status": "completed",
       "date": "2026-06-12",
       "time": "22:00",
       "group": "B",
@@ -1514,24 +1514,24 @@
       {
         "team": "Canada",
         "group": "B",
-        "played": 0,
+        "played": 1,
         "wins": 0,
-        "draws": 0,
+        "draws": 1,
         "losses": 0,
-        "points": 0,
-        "gf": 0,
-        "ga": 0
+        "points": 1,
+        "gf": 1,
+        "ga": 1
       },
       {
         "team": "Bosnia-H.",
         "group": "B",
-        "played": 0,
+        "played": 1,
         "wins": 0,
-        "draws": 0,
+        "draws": 1,
         "losses": 0,
-        "points": 0,
-        "gf": 0,
-        "ga": 0
+        "points": 1,
+        "gf": 1,
+        "ga": 1
       },
       {
         "team": "Qatar",

@@ -1,0 +1,160 @@
+{
+  "lastUpdated": "2026-06-12T14:20:13.000Z",
+  "favorites": [
+    "Argentina",
+    "Spain",
+    "USA"
+  ],
+  "matches": [
+    {
+      "id": 1,
+      "homeTeam": "Argentina",
+      "awayTeam": "Poland",
+      "homeScore": 2,
+      "awayScore": 1,
+      "status": "completed",
+      "date": "2026-06-12",
+      "time": "14:00",
+      "group": "A",
+      "updatedAt": "2026-06-12T14:00:00Z"
+    },
+    {
+      "id": 2,
+      "homeTeam": "Spain",
+      "awayTeam": "Germany",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "live",
+      "date": "2026-06-12",
+      "time": "15:00",
+      "group": "B",
+      "updatedAt": "2026-06-12T15:00:00Z"
+    },
+    {
+      "id": 3,
+      "homeTeam": "USA",
+      "awayTeam": "Mexico",
+      "homeScore": 1,
+      "awayScore": 3,
+      "status": "completed",
+      "date": "2026-06-12",
+      "time": "16:00",
+      "group": "C",
+      "updatedAt": "2026-06-12T16:00:00Z"
+    },
+    {
+      "id": 4,
+      "homeTeam": "Argentina",
+      "awayTeam": "Brazil",
+      "homeScore": null,
+      "awayScore": null,
+      "status": "upcoming",
+      "date": "2026-06-15",
+      "time": "14:00",
+      "group": "A",
+      "updatedAt": null
+    },
+    {
+      "id": 5,
+      "homeTeam": "Spain",
+      "awayTeam": "Portugal",
+      "homeScore": 2,
+      "awayScore": 2,
+      "status": "completed",
+      "date": "2026-06-10",
+      "time": "18:00",
+      "group": "B",
+      "updatedAt": "2026-06-10T18:00:00Z"
+    },
+    {
+      "id": 6,
+      "homeTeam": "USA",
+      "awayTeam": "Canada",
+      "homeScore": 2,
+      "awayScore": 0,
+      "status": "completed",
+      "date": "2026-06-10",
+      "time": "20:00",
+      "group": "C",
+      "updatedAt": "2026-06-10T20:00:00Z"
+    }
+  ],
+  "standings": {
+    "A": [
+      {
+        "team": "Argentina",
+        "played": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "points": 3
+      },
+      {
+        "team": "Poland",
+        "played": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "points": 0
+      }
+    ],
+    "B": [
+      {
+        "team": "Spain",
+        "played": 2,
+        "wins": 0,
+        "draws": 2,
+        "losses": 0,
+        "points": 2
+      },
+      {
+        "team": "Portugal",
+        "played": 1,
+        "wins": 0,
+        "draws": 1,
+        "losses": 0,
+        "points": 1
+      },
+      {
+        "team": "Germany",
+        "played": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "points": 0
+      }
+    ],
+    "C": [
+      {
+        "team": "USA",
+        "played": 2,
+        "wins": 0,
+        "draws": 0,
+        "losses": 2,
+        "points": 0
+      },
+      {
+        "team": "Mexico",
+        "played": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "points": 3
+      },
+      {
+        "team": "Canada",
+        "played": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "points": 0
+      }
+    ]
+  },
+  "knockout": [
+    [],
+    [],
+    [],
+    []
+  ]
+}

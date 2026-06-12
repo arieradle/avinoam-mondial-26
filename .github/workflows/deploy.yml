@@ -3,6 +3,9 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [main]
+    paths-ignore:
+      - 'index.html'
+      - 'assets/**'
   workflow_dispatch:
 
 permissions:
@@ -25,11 +28,17 @@ jobs:
 
       - run: npm ci
 
-      - name: Build Vite app
+      - name: Build
         run: npm run build
 
-      - name: Deploy to gh-pages branch
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
+      - name: Commit built files to main (served by GitHub Pages)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git rm -rf --cached assets/ 2>/dev/null || true
+          rm -rf assets/
+          cp dist/index.html index.html
+          cp -r dist/assets .
+          cp dist/.nojekyll .nojekyll 2>/dev/null || touch .nojekyll
+          git add index.html assets/ .nojekyll
+          git diff --staged --quiet || (git commit -m "deploy: built React app [skip ci]" && git push)

@@ -136,6 +136,11 @@ function parseFootballDataMatches(matches) {
       'CANCELLED': 'cancelled'
     };
     
+    // Convert UTC kickoff to Israel Summer Time (IDT = UTC+3)
+    const utcKickoff = match.utcDate ? new Date(match.utcDate) : new Date();
+    const idtKickoff = new Date(utcKickoff.getTime() + 3 * 60 * 60 * 1000);
+    const idtIso = idtKickoff.toISOString();
+
     return {
       id: idx + 1,
       homeTeam: match.homeTeam?.name || 'TBA',
@@ -143,8 +148,8 @@ function parseFootballDataMatches(matches) {
       homeScore: match.score?.fullTime?.home,
       awayScore: match.score?.fullTime?.away,
       status: statusMap[match.status] || 'upcoming',
-      date: match.utcDate?.split('T')[0] || new Date().toISOString().split('T')[0],
-      time: match.utcDate?.split('T')[1]?.substring(0, 5) || '00:00',
+      date: idtIso.split('T')[0],
+      time: idtIso.split('T')[1].substring(0, 5),
       group: match.group || 'N/A',
       updatedAt: new Date()
     };

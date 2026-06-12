@@ -418,7 +418,9 @@ body {
 /* ── Standings table ────────────────────────────── */
 .standings-wrap {
   border-radius: var(--radius);
-  overflow: hidden;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
   border: 1px solid var(--border);
 }
 
@@ -560,20 +562,50 @@ body {
 }
 .footer p { margin: 3px 0; }
 
+/* ── Global overflow fix ────────────────────────── */
+html, body { overflow-x: hidden; }
+
+/* ── Match name truncation (all viewports) ──────── */
+.match-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 100px;
+}
+
 /* ── Responsive ─────────────────────────────────── */
-@media (max-width: 640px) {
-  .header { padding: 28px 16px 24px; }
-  .section { padding: 16px; }
-  .tabs-buttons { padding: 8px 12px; }
 
-  .match-item { grid-template-columns: 1fr auto 1fr; gap: 8px; padding: 12px; }
-  .match-flag { font-size: 1.2rem; }
-  .match-scoreline { font-size: 1.2rem; }
-  .match-team { font-size: .82rem; }
-  .match-center { min-width: 64px; }
+/* Tablet: 480px – 768px */
+@media (min-width: 480px) and (max-width: 768px) {
+  .section { padding: 20px; }
+  .teams-grid { grid-template-columns: repeat(3, 1fr); }
+  .match-name { font-size: 0.85rem; }
+}
 
-  .next-flag { font-size: 2.8rem; }
-  .teams-grid { grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); gap: 8px; }
+/* Mobile: < 480px */
+@media (max-width: 480px) {
+  body { padding: 0; }
+
+  .container { border-radius: 0; }
+
+  .header { padding: 20px 16px; }
+  .header h1 { font-size: 1.8rem; }
+
+  .section { padding: 16px; margin: 12px; }
+
+  .tabs-buttons { padding: 6px 10px; gap: 4px; }
+  .tab-btn { padding: 6px 10px; font-size: 0.8rem; }
+
+  .match-item { padding: 10px 12px; gap: 6px; }
+  .match-name { font-size: 0.75rem; }
+  .match-flag { font-size: 1.1rem; }
+  .match-scoreline { font-size: 1.1rem; }
+  .match-center { min-width: 56px; }
+
+  .next-match-teams { flex-direction: column; gap: 16px; align-items: center; }
+  .next-flag { font-size: 3rem; }
+
+  .teams-grid { grid-template-columns: repeat(2, 1fr); gap: 8px; }
 
   .bracket { min-width: 700px; }
 }

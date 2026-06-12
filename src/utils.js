@@ -10,17 +10,21 @@ export function getFlag(team) {
 }
 
 export function getTodayDate() {
-  return new Date().toISOString().split('T')[0]
+  // 'en-CA' produces YYYY-MM-DD format
+  return new Date().toLocaleDateString('en-CA', { timeZone: 'Asia/Jerusalem' })
 }
 
 export function formatLastUpdated(ts) {
   return new Date(ts).toLocaleTimeString('en-US', {
     hour: '2-digit', minute: '2-digit', second: '2-digit',
-  })
+    timeZone: 'Asia/Jerusalem',
+  }) + ' IDT'
 }
 
 export function formatMatchDate(dateStr) {
-  return new Date(dateStr).toLocaleDateString('en-US', {
+  // dateStr is already the IDT calendar date ("YYYY-MM-DD")
+  return new Date(dateStr + 'T12:00:00+03:00').toLocaleDateString('en-US', {
     weekday: 'long', month: 'short', day: 'numeric',
+    timeZone: 'Asia/Jerusalem',
   })
 }

@@ -3,7 +3,7 @@ import { getFlag, formatMatchDate } from '../utils'
 function NextMatch({ matches }) {
   const upcoming = [...matches]
     .filter(m => m.status === 'upcoming')
-    .sort((a, b) => new Date(`${a.date}T${a.time}`) - new Date(`${b.date}T${b.time}`))
+    .sort((a, b) => new Date(`${a.date}T${a.time}:00+03:00`) - new Date(`${b.date}T${b.time}:00+03:00`))
 
   if (upcoming.length === 0) {
     return (
@@ -16,7 +16,8 @@ function NextMatch({ matches }) {
   }
 
   const next = upcoming[0]
-  const diff = new Date(`${next.date}T${next.time}`) - new Date()
+  // times stored as IDT (UTC+3), append offset so Date parses correctly
+  const diff = new Date(`${next.date}T${next.time}:00+03:00`) - new Date()
   const days  = Math.floor(diff / 86400000)
   const hours = Math.floor((diff % 86400000) / 3600000)
   const mins  = Math.floor((diff % 3600000)  / 60000)
@@ -48,7 +49,7 @@ function NextMatch({ matches }) {
 
       <div className="next-match-meta">
         <span>📅 {formatMatchDate(next.date)}</span>
-        <span>⏰ {next.time}</span>
+        <span>⏰ {next.time} IDT</span>
         {next.group && <span>🏟 Group {next.group}</span>}
       </div>
     </div>

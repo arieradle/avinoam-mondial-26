@@ -22,7 +22,7 @@ export default function MatchItem({ match }) {
         </div>
         <div className="match-meta">
           {badge}
-          <span className="match-time-label">{time}</span>
+          <span className="match-time-label">{time} IDT</span>
         </div>
       </div>
 

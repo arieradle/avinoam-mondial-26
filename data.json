@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-14T01:42:10.113Z",
+  "lastUpdated": "2026-06-14T06:30:09.925Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -96,7 +96,7 @@
       "awayTeam": "Scotland",
       "homeScore": 0,
       "awayScore": 1,
-      "status": "live",
+      "status": "completed",
       "date": "2026-06-14",
       "time": "04:00",
       "group": "C",
@@ -108,9 +108,9 @@
       "id": 537346,
       "homeTeam": "Australia",
       "awayTeam": "Turkey",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "upcoming",
+      "homeScore": 2,
+      "awayScore": 0,
+      "status": "completed",
       "date": "2026-06-14",
       "time": "07:00",
       "group": "D",
@@ -1571,24 +1571,24 @@
       {
         "team": "Australia",
         "group": "D",
-        "played": 0,
-        "wins": 0,
+        "played": 1,
+        "wins": 1,
         "draws": 0,
         "losses": 0,
-        "points": 0,
-        "gf": 0,
+        "points": 3,
+        "gf": 2,
         "ga": 0
       },
       {
         "team": "Turkey",
         "group": "D",
-        "played": 0,
+        "played": 1,
         "wins": 0,
         "draws": 0,
-        "losses": 0,
+        "losses": 1,
         "points": 0,
         "gf": 0,
-        "ga": 0
+        "ga": 2
       },
       {
         "team": "Paraguay",
@@ -1603,6 +1603,17 @@
       }
     ],
     "C": [
+      {
+        "team": "Scotland",
+        "group": "C",
+        "played": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "points": 3,
+        "gf": 1,
+        "ga": 0
+      },
       {
         "team": "Brazil",
         "group": "C",
@@ -1628,24 +1639,13 @@
       {
         "team": "Haiti",
         "group": "C",
-        "played": 0,
+        "played": 1,
         "wins": 0,
         "draws": 0,
-        "losses": 0,
+        "losses": 1,
         "points": 0,
         "gf": 0,
-        "ga": 0
-      },
-      {
-        "team": "Scotland",
-        "group": "C",
-        "played": 0,
-        "wins": 0,
-        "draws": 0,
-        "losses": 0,
-        "points": 0,
-        "gf": 0,
-        "ga": 0
+        "ga": 1
       }
     ],
     "E": [

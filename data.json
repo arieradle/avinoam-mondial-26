@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-14T16:18:22.274Z",
+  "lastUpdated": "2026-06-14T17:56:05.430Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -122,9 +122,9 @@
       "id": 537351,
       "homeTeam": "Germany",
       "awayTeam": "Curaçao",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "upcoming",
+      "homeScore": 2,
+      "awayScore": 1,
+      "status": "live",
       "date": "2026-06-14",
       "time": "20:00",
       "group": "E",

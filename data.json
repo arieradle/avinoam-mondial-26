@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-14T17:56:05.430Z",
+  "lastUpdated": "2026-06-14T19:22:07.634Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -38,8 +38,8 @@
       "id": 537333,
       "homeTeam": "Canada",
       "awayTeam": "Bosnia-H.",
-      "homeScore": 1,
-      "awayScore": 1,
+      "homeScore": null,
+      "awayScore": null,
       "status": "completed",
       "date": "2026-06-12",
       "time": "22:00",
@@ -122,9 +122,9 @@
       "id": 537351,
       "homeTeam": "Germany",
       "awayTeam": "Curaçao",
-      "homeScore": 2,
+      "homeScore": 7,
       "awayScore": 1,
-      "status": "live",
+      "status": "completed",
       "date": "2026-06-14",
       "time": "20:00",
       "group": "E",
@@ -1512,28 +1512,6 @@
     ],
     "B": [
       {
-        "team": "Canada",
-        "group": "B",
-        "played": 1,
-        "wins": 0,
-        "draws": 1,
-        "losses": 0,
-        "points": 1,
-        "gf": 1,
-        "ga": 1
-      },
-      {
-        "team": "Bosnia-H.",
-        "group": "B",
-        "played": 1,
-        "wins": 0,
-        "draws": 1,
-        "losses": 0,
-        "points": 1,
-        "gf": 1,
-        "ga": 1
-      },
-      {
         "team": "Qatar",
         "group": "B",
         "played": 1,
@@ -1554,6 +1532,28 @@
         "points": 1,
         "gf": 1,
         "ga": 1
+      },
+      {
+        "team": "Canada",
+        "group": "B",
+        "played": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "points": 0,
+        "gf": 0,
+        "ga": 0
+      },
+      {
+        "team": "Bosnia-H.",
+        "group": "B",
+        "played": 0,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "points": 0,
+        "gf": 0,
+        "ga": 0
       }
     ],
     "D": [
@@ -1652,24 +1652,13 @@
       {
         "team": "Germany",
         "group": "E",
-        "played": 0,
-        "wins": 0,
+        "played": 1,
+        "wins": 1,
         "draws": 0,
         "losses": 0,
-        "points": 0,
-        "gf": 0,
-        "ga": 0
-      },
-      {
-        "team": "Curaçao",
-        "group": "E",
-        "played": 0,
-        "wins": 0,
-        "draws": 0,
-        "losses": 0,
-        "points": 0,
-        "gf": 0,
-        "ga": 0
+        "points": 3,
+        "gf": 7,
+        "ga": 1
       },
       {
         "team": "Ivory Coast",
@@ -1692,6 +1681,17 @@
         "points": 0,
         "gf": 0,
         "ga": 0
+      },
+      {
+        "team": "Curaçao",
+        "group": "E",
+        "played": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "points": 0,
+        "gf": 1,
+        "ga": 7
       }
     ],
     "F": [

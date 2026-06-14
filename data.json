@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-14T20:46:24.533Z",
+  "lastUpdated": "2026-06-14T22:04:52.713Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -136,9 +136,9 @@
       "id": 537357,
       "homeTeam": "Netherlands",
       "awayTeam": "Japan",
-      "homeScore": 0,
-      "awayScore": 0,
-      "status": "live",
+      "homeScore": 2,
+      "awayScore": 2,
+      "status": "completed",
       "date": "2026-06-14",
       "time": "23:00",
       "group": "F",
@@ -1698,24 +1698,24 @@
       {
         "team": "Netherlands",
         "group": "F",
-        "played": 0,
+        "played": 1,
         "wins": 0,
-        "draws": 0,
+        "draws": 1,
         "losses": 0,
-        "points": 0,
-        "gf": 0,
-        "ga": 0
+        "points": 1,
+        "gf": 2,
+        "ga": 2
       },
       {
         "team": "Japan",
         "group": "F",
-        "played": 0,
+        "played": 1,
         "wins": 0,
-        "draws": 0,
+        "draws": 1,
         "losses": 0,
-        "points": 0,
-        "gf": 0,
-        "ga": 0
+        "points": 1,
+        "gf": 2,
+        "ga": 2
       },
       {
         "team": "Sweden",

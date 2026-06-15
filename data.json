@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-15T03:37:18.011Z",
+  "lastUpdated": "2026-06-15T09:56:50.120Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -164,9 +164,9 @@
       "id": 537358,
       "homeTeam": "Sweden",
       "awayTeam": "Tunisia",
-      "homeScore": 3,
+      "homeScore": 5,
       "awayScore": 1,
-      "status": "live",
+      "status": "completed",
       "date": "2026-06-15",
       "time": "05:00",
       "group": "F",
@@ -1696,6 +1696,17 @@
     ],
     "F": [
       {
+        "team": "Sweden",
+        "group": "F",
+        "played": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "points": 3,
+        "gf": 5,
+        "ga": 1
+      },
+      {
         "team": "Netherlands",
         "group": "F",
         "played": 1,
@@ -1718,26 +1729,15 @@
         "ga": 2
       },
       {
-        "team": "Sweden",
-        "group": "F",
-        "played": 0,
-        "wins": 0,
-        "draws": 0,
-        "losses": 0,
-        "points": 0,
-        "gf": 0,
-        "ga": 0
-      },
-      {
         "team": "Tunisia",
         "group": "F",
-        "played": 0,
+        "played": 1,
         "wins": 0,
         "draws": 0,
-        "losses": 0,
+        "losses": 1,
         "points": 0,
-        "gf": 0,
-        "ga": 0
+        "gf": 1,
+        "ga": 5
       }
     ],
     "H": [

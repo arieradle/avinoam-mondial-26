@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-15T19:42:32.122Z",
+  "lastUpdated": "2026-06-15T22:13:47.839Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -192,9 +192,9 @@
       "id": 537363,
       "homeTeam": "Belgium",
       "awayTeam": "Egypt",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 1,
-      "status": "live",
+      "status": "completed",
       "date": "2026-06-15",
       "time": "22:00",
       "group": "G",
@@ -206,9 +206,9 @@
       "id": 537370,
       "homeTeam": "Saudi Arabia",
       "awayTeam": "Uruguay",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "upcoming",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "live",
       "date": "2026-06-16",
       "time": "01:00",
       "group": "H",
@@ -1790,24 +1790,24 @@
       {
         "team": "Belgium",
         "group": "G",
-        "played": 0,
+        "played": 1,
         "wins": 0,
-        "draws": 0,
+        "draws": 1,
         "losses": 0,
-        "points": 0,
-        "gf": 0,
-        "ga": 0
+        "points": 1,
+        "gf": 1,
+        "ga": 1
       },
       {
         "team": "Egypt",
         "group": "G",
-        "played": 0,
+        "played": 1,
         "wins": 0,
-        "draws": 0,
+        "draws": 1,
         "losses": 0,
-        "points": 0,
-        "gf": 0,
-        "ga": 0
+        "points": 1,
+        "gf": 1,
+        "ga": 1
       },
       {
         "team": "Iran",

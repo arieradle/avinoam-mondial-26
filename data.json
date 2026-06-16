@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-16T00:08:57.880Z",
+  "lastUpdated": "2026-06-16T05:43:41.532Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -208,7 +208,7 @@
       "awayTeam": "Uruguay",
       "homeScore": 1,
       "awayScore": 1,
-      "status": "live",
+      "status": "completed",
       "date": "2026-06-16",
       "time": "01:00",
       "group": "H",
@@ -220,9 +220,9 @@
       "id": 537364,
       "homeTeam": "Iran",
       "awayTeam": "New Zealand",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "upcoming",
+      "homeScore": 2,
+      "awayScore": 2,
+      "status": "completed",
       "date": "2026-06-16",
       "time": "04:00",
       "group": "G",
@@ -1742,6 +1742,28 @@
     ],
     "H": [
       {
+        "team": "Saudi Arabia",
+        "group": "H",
+        "played": 1,
+        "wins": 0,
+        "draws": 1,
+        "losses": 0,
+        "points": 1,
+        "gf": 1,
+        "ga": 1
+      },
+      {
+        "team": "Uruguay",
+        "group": "H",
+        "played": 1,
+        "wins": 0,
+        "draws": 1,
+        "losses": 0,
+        "points": 1,
+        "gf": 1,
+        "ga": 1
+      },
+      {
         "team": "Spain",
         "group": "H",
         "played": 1,
@@ -1762,31 +1784,31 @@
         "points": 1,
         "gf": 0,
         "ga": 0
-      },
-      {
-        "team": "Saudi Arabia",
-        "group": "H",
-        "played": 0,
-        "wins": 0,
-        "draws": 0,
-        "losses": 0,
-        "points": 0,
-        "gf": 0,
-        "ga": 0
-      },
-      {
-        "team": "Uruguay",
-        "group": "H",
-        "played": 0,
-        "wins": 0,
-        "draws": 0,
-        "losses": 0,
-        "points": 0,
-        "gf": 0,
-        "ga": 0
       }
     ],
     "G": [
+      {
+        "team": "Iran",
+        "group": "G",
+        "played": 1,
+        "wins": 0,
+        "draws": 1,
+        "losses": 0,
+        "points": 1,
+        "gf": 2,
+        "ga": 2
+      },
+      {
+        "team": "New Zealand",
+        "group": "G",
+        "played": 1,
+        "wins": 0,
+        "draws": 1,
+        "losses": 0,
+        "points": 1,
+        "gf": 2,
+        "ga": 2
+      },
       {
         "team": "Belgium",
         "group": "G",
@@ -1808,28 +1830,6 @@
         "points": 1,
         "gf": 1,
         "ga": 1
-      },
-      {
-        "team": "Iran",
-        "group": "G",
-        "played": 0,
-        "wins": 0,
-        "draws": 0,
-        "losses": 0,
-        "points": 0,
-        "gf": 0,
-        "ga": 0
-      },
-      {
-        "team": "New Zealand",
-        "group": "G",
-        "played": 0,
-        "wins": 0,
-        "draws": 0,
-        "losses": 0,
-        "points": 0,
-        "gf": 0,
-        "ga": 0
       }
     ],
     "I": [

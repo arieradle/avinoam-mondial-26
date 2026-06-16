@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-16T19:54:46.202Z",
+  "lastUpdated": "2026-06-16T22:07:20.087Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -234,9 +234,9 @@
       "id": 537391,
       "homeTeam": "France",
       "awayTeam": "Senegal",
-      "homeScore": 0,
-      "awayScore": 0,
-      "status": "live",
+      "homeScore": 3,
+      "awayScore": 1,
+      "status": "completed",
       "date": "2026-06-16",
       "time": "22:00",
       "group": "I",
@@ -248,9 +248,9 @@
       "id": 537392,
       "homeTeam": "Iraq",
       "awayTeam": "Norway",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "upcoming",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "live",
       "date": "2026-06-17",
       "time": "01:00",
       "group": "I",
@@ -1836,24 +1836,13 @@
       {
         "team": "France",
         "group": "I",
-        "played": 0,
-        "wins": 0,
+        "played": 1,
+        "wins": 1,
         "draws": 0,
         "losses": 0,
-        "points": 0,
-        "gf": 0,
-        "ga": 0
-      },
-      {
-        "team": "Senegal",
-        "group": "I",
-        "played": 0,
-        "wins": 0,
-        "draws": 0,
-        "losses": 0,
-        "points": 0,
-        "gf": 0,
-        "ga": 0
+        "points": 3,
+        "gf": 3,
+        "ga": 1
       },
       {
         "team": "Iraq",
@@ -1876,6 +1865,17 @@
         "points": 0,
         "gf": 0,
         "ga": 0
+      },
+      {
+        "team": "Senegal",
+        "group": "I",
+        "played": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "points": 0,
+        "gf": 1,
+        "ga": 3
       }
     ],
     "J": [

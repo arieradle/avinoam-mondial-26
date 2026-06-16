@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-16T16:09:22.844Z",
+  "lastUpdated": "2026-06-16T19:54:46.202Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -234,9 +234,9 @@
       "id": 537391,
       "homeTeam": "France",
       "awayTeam": "Senegal",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "upcoming",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "live",
       "date": "2026-06-16",
       "time": "22:00",
       "group": "I",

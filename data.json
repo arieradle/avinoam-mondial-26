@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-17T03:31:21.498Z",
+  "lastUpdated": "2026-06-17T08:56:52.486Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -276,9 +276,9 @@
       "id": 537398,
       "homeTeam": "Austria",
       "awayTeam": "Jordan",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "upcoming",
+      "homeScore": 3,
+      "awayScore": 1,
+      "status": "completed",
       "date": "2026-06-17",
       "time": "07:00",
       "group": "J",
@@ -1893,24 +1893,24 @@
       {
         "team": "Austria",
         "group": "J",
-        "played": 0,
-        "wins": 0,
+        "played": 1,
+        "wins": 1,
         "draws": 0,
         "losses": 0,
-        "points": 0,
-        "gf": 0,
-        "ga": 0
+        "points": 3,
+        "gf": 3,
+        "ga": 1
       },
       {
         "team": "Jordan",
         "group": "J",
-        "played": 0,
+        "played": 1,
         "wins": 0,
         "draws": 0,
-        "losses": 0,
+        "losses": 1,
         "points": 0,
-        "gf": 0,
-        "ga": 0
+        "gf": 1,
+        "ga": 3
       },
       {
         "team": "Algeria",

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-16T23:54:25.533Z",
+  "lastUpdated": "2026-06-17T03:31:21.498Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -249,8 +249,8 @@
       "homeTeam": "Iraq",
       "awayTeam": "Norway",
       "homeScore": 1,
-      "awayScore": 3,
-      "status": "live",
+      "awayScore": 4,
+      "status": "completed",
       "date": "2026-06-17",
       "time": "01:00",
       "group": "I",
@@ -262,9 +262,9 @@
       "id": 537397,
       "homeTeam": "Argentina",
       "awayTeam": "Algeria",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "upcoming",
+      "homeScore": 3,
+      "awayScore": 0,
+      "status": "completed",
       "date": "2026-06-17",
       "time": "04:00",
       "group": "J",
@@ -1834,6 +1834,17 @@
     ],
     "I": [
       {
+        "team": "Norway",
+        "group": "I",
+        "played": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "points": 3,
+        "gf": 4,
+        "ga": 1
+      },
+      {
         "team": "France",
         "group": "I",
         "played": 1,
@@ -1845,28 +1856,6 @@
         "ga": 1
       },
       {
-        "team": "Iraq",
-        "group": "I",
-        "played": 0,
-        "wins": 0,
-        "draws": 0,
-        "losses": 0,
-        "points": 0,
-        "gf": 0,
-        "ga": 0
-      },
-      {
-        "team": "Norway",
-        "group": "I",
-        "played": 0,
-        "wins": 0,
-        "draws": 0,
-        "losses": 0,
-        "points": 0,
-        "gf": 0,
-        "ga": 0
-      },
-      {
         "team": "Senegal",
         "group": "I",
         "played": 1,
@@ -1876,29 +1865,29 @@
         "points": 0,
         "gf": 1,
         "ga": 3
+      },
+      {
+        "team": "Iraq",
+        "group": "I",
+        "played": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "points": 0,
+        "gf": 1,
+        "ga": 4
       }
     ],
     "J": [
       {
         "team": "Argentina",
         "group": "J",
-        "played": 0,
-        "wins": 0,
+        "played": 1,
+        "wins": 1,
         "draws": 0,
         "losses": 0,
-        "points": 0,
-        "gf": 0,
-        "ga": 0
-      },
-      {
-        "team": "Algeria",
-        "group": "J",
-        "played": 0,
-        "wins": 0,
-        "draws": 0,
-        "losses": 0,
-        "points": 0,
-        "gf": 0,
+        "points": 3,
+        "gf": 3,
         "ga": 0
       },
       {
@@ -1922,6 +1911,17 @@
         "points": 0,
         "gf": 0,
         "ga": 0
+      },
+      {
+        "team": "Algeria",
+        "group": "J",
+        "played": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "points": 0,
+        "gf": 0,
+        "ga": 3
       }
     ],
     "K": [

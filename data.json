@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-17T21:27:48.265Z",
+  "lastUpdated": "2026-06-17T22:58:23.818Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -304,9 +304,9 @@
       "id": 537409,
       "homeTeam": "England",
       "awayTeam": "Croatia",
-      "homeScore": 3,
+      "homeScore": 4,
       "awayScore": 2,
-      "status": "live",
+      "status": "completed",
       "date": "2026-06-17",
       "time": "23:00",
       "group": "L",
@@ -1974,24 +1974,13 @@
       {
         "team": "England",
         "group": "L",
-        "played": 0,
-        "wins": 0,
+        "played": 1,
+        "wins": 1,
         "draws": 0,
         "losses": 0,
-        "points": 0,
-        "gf": 0,
-        "ga": 0
-      },
-      {
-        "team": "Croatia",
-        "group": "L",
-        "played": 0,
-        "wins": 0,
-        "draws": 0,
-        "losses": 0,
-        "points": 0,
-        "gf": 0,
-        "ga": 0
+        "points": 3,
+        "gf": 4,
+        "ga": 2
       },
       {
         "team": "Ghana",
@@ -2014,6 +2003,17 @@
         "points": 0,
         "gf": 0,
         "ga": 0
+      },
+      {
+        "team": "Croatia",
+        "group": "L",
+        "played": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "points": 0,
+        "gf": 2,
+        "ga": 4
       }
     ]
   },

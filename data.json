@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-18T18:44:29.663Z",
+  "lastUpdated": "2026-06-18T21:21:18.287Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -360,9 +360,9 @@
       "id": 537335,
       "homeTeam": "Switzerland",
       "awayTeam": "Bosnia-H.",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "upcoming",
+      "homeScore": 4,
+      "awayScore": 1,
+      "status": "completed",
       "date": "2026-06-18",
       "time": "22:00",
       "group": "B",
@@ -1512,18 +1512,18 @@
     ],
     "B": [
       {
-        "team": "Canada",
+        "team": "Switzerland",
         "group": "B",
-        "played": 1,
-        "wins": 0,
+        "played": 2,
+        "wins": 1,
         "draws": 1,
         "losses": 0,
-        "points": 1,
-        "gf": 1,
-        "ga": 1
+        "points": 4,
+        "gf": 5,
+        "ga": 2
       },
       {
-        "team": "Bosnia-H.",
+        "team": "Canada",
         "group": "B",
         "played": 1,
         "wins": 0,
@@ -1545,15 +1545,15 @@
         "ga": 1
       },
       {
-        "team": "Switzerland",
+        "team": "Bosnia-H.",
         "group": "B",
-        "played": 1,
+        "played": 2,
         "wins": 0,
         "draws": 1,
-        "losses": 0,
+        "losses": 1,
         "points": 1,
-        "gf": 1,
-        "ga": 1
+        "gf": 2,
+        "ga": 5
       }
     ],
     "D": [

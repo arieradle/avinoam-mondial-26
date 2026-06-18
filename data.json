@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-18T21:21:18.287Z",
+  "lastUpdated": "2026-06-18T23:16:18.348Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -374,9 +374,9 @@
       "id": 537336,
       "homeTeam": "Canada",
       "awayTeam": "Qatar",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "upcoming",
+      "homeScore": 3,
+      "awayScore": 0,
+      "status": "live",
       "date": "2026-06-19",
       "time": "01:00",
       "group": "B",

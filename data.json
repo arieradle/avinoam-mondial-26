@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-18T16:24:25.697Z",
+  "lastUpdated": "2026-06-18T18:44:29.663Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -347,8 +347,8 @@
       "homeTeam": "Czechia",
       "awayTeam": "South Africa",
       "homeScore": 1,
-      "awayScore": 0,
-      "status": "live",
+      "awayScore": 1,
+      "status": "completed",
       "date": "2026-06-18",
       "time": "19:00",
       "group": "A",
@@ -1490,24 +1490,24 @@
       {
         "team": "Czechia",
         "group": "A",
-        "played": 1,
+        "played": 2,
         "wins": 0,
-        "draws": 0,
+        "draws": 1,
         "losses": 1,
-        "points": 0,
-        "gf": 1,
-        "ga": 2
+        "points": 1,
+        "gf": 2,
+        "ga": 3
       },
       {
         "team": "South Africa",
         "group": "A",
-        "played": 1,
+        "played": 2,
         "wins": 0,
-        "draws": 0,
+        "draws": 1,
         "losses": 1,
-        "points": 0,
-        "gf": 0,
-        "ga": 2
+        "points": 1,
+        "gf": 1,
+        "ga": 3
       }
     ],
     "B": [

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-18T05:14:32.429Z",
+  "lastUpdated": "2026-06-18T09:52:00.792Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -320,7 +320,7 @@
       "awayTeam": "Panama",
       "homeScore": 1,
       "awayScore": 0,
-      "status": "completed",
+      "status": "live",
       "date": "2026-06-18",
       "time": "02:00",
       "group": "L",
@@ -1985,24 +1985,24 @@
       {
         "team": "Ghana",
         "group": "L",
-        "played": 1,
-        "wins": 1,
+        "played": 0,
+        "wins": 0,
         "draws": 0,
         "losses": 0,
-        "points": 3,
-        "gf": 1,
+        "points": 0,
+        "gf": 0,
         "ga": 0
       },
       {
         "team": "Panama",
         "group": "L",
-        "played": 1,
+        "played": 0,
         "wins": 0,
         "draws": 0,
-        "losses": 1,
+        "losses": 0,
         "points": 0,
         "gf": 0,
-        "ga": 1
+        "ga": 0
       },
       {
         "team": "Croatia",

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-18T12:48:45.272Z",
+  "lastUpdated": "2026-06-18T16:24:25.697Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -346,9 +346,9 @@
       "id": 537329,
       "homeTeam": "Czechia",
       "awayTeam": "South Africa",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "upcoming",
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "live",
       "date": "2026-06-18",
       "time": "19:00",
       "group": "A",

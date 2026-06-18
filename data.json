@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-18T00:18:01.981Z",
+  "lastUpdated": "2026-06-18T05:14:32.429Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -318,9 +318,9 @@
       "id": 537410,
       "homeTeam": "Ghana",
       "awayTeam": "Panama",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
-      "status": "live",
+      "status": "completed",
       "date": "2026-06-18",
       "time": "02:00",
       "group": "L",
@@ -332,9 +332,9 @@
       "id": 537404,
       "homeTeam": "Uzbekistan",
       "awayTeam": "Colombia",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "upcoming",
+      "homeScore": 1,
+      "awayScore": 3,
+      "status": "completed",
       "date": "2026-06-18",
       "time": "05:00",
       "group": "K",
@@ -1926,6 +1926,17 @@
     ],
     "K": [
       {
+        "team": "Colombia",
+        "group": "K",
+        "played": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "points": 3,
+        "gf": 3,
+        "ga": 1
+      },
+      {
         "team": "Portugal",
         "group": "K",
         "played": 1,
@@ -1950,24 +1961,13 @@
       {
         "team": "Uzbekistan",
         "group": "K",
-        "played": 0,
+        "played": 1,
         "wins": 0,
         "draws": 0,
-        "losses": 0,
+        "losses": 1,
         "points": 0,
-        "gf": 0,
-        "ga": 0
-      },
-      {
-        "team": "Colombia",
-        "group": "K",
-        "played": 0,
-        "wins": 0,
-        "draws": 0,
-        "losses": 0,
-        "points": 0,
-        "gf": 0,
-        "ga": 0
+        "gf": 1,
+        "ga": 3
       }
     ],
     "L": [
@@ -1985,24 +1985,24 @@
       {
         "team": "Ghana",
         "group": "L",
-        "played": 0,
-        "wins": 0,
+        "played": 1,
+        "wins": 1,
         "draws": 0,
         "losses": 0,
-        "points": 0,
-        "gf": 0,
+        "points": 3,
+        "gf": 1,
         "ga": 0
       },
       {
         "team": "Panama",
         "group": "L",
-        "played": 0,
+        "played": 1,
         "wins": 0,
         "draws": 0,
-        "losses": 0,
+        "losses": 1,
         "points": 0,
         "gf": 0,
-        "ga": 0
+        "ga": 1
       },
       {
         "team": "Croatia",

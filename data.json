@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-19T21:04:50.494Z",
+  "lastUpdated": "2026-06-19T23:39:42.733Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -404,7 +404,7 @@
       "awayTeam": "Australia",
       "homeScore": 2,
       "awayScore": 0,
-      "status": "live",
+      "status": "completed",
       "date": "2026-06-19",
       "time": "22:00",
       "group": "D",
@@ -416,9 +416,9 @@
       "id": 537342,
       "homeTeam": "Scotland",
       "awayTeam": "Morocco",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "upcoming",
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "live",
       "date": "2026-06-20",
       "time": "01:00",
       "group": "C",
@@ -1560,24 +1560,24 @@
       {
         "team": "USA",
         "group": "D",
-        "played": 1,
-        "wins": 1,
+        "played": 2,
+        "wins": 2,
         "draws": 0,
         "losses": 0,
-        "points": 3,
-        "gf": 4,
+        "points": 6,
+        "gf": 6,
         "ga": 1
       },
       {
         "team": "Australia",
         "group": "D",
-        "played": 1,
+        "played": 2,
         "wins": 1,
         "draws": 0,
-        "losses": 0,
+        "losses": 1,
         "points": 3,
         "gf": 2,
-        "ga": 0
+        "ga": 2
       },
       {
         "team": "Turkey",

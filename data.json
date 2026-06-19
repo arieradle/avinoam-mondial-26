@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-19T17:51:27.534Z",
+  "lastUpdated": "2026-06-19T19:41:46.797Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -402,9 +402,9 @@
       "id": 537348,
       "homeTeam": "USA",
       "awayTeam": "Australia",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "upcoming",
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "live",
       "date": "2026-06-19",
       "time": "22:00",
       "group": "D",

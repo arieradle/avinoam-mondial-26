@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-20T22:02:23.912Z",
+  "lastUpdated": "2026-06-20T23:43:21.775Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -474,7 +474,7 @@
       "awayTeam": "Ivory Coast",
       "homeScore": 2,
       "awayScore": 1,
-      "status": "live",
+      "status": "completed",
       "date": "2026-06-20",
       "time": "23:00",
       "group": "E",
@@ -1652,24 +1652,24 @@
       {
         "team": "Germany",
         "group": "E",
-        "played": 1,
-        "wins": 1,
+        "played": 2,
+        "wins": 2,
         "draws": 0,
         "losses": 0,
-        "points": 3,
-        "gf": 7,
-        "ga": 1
+        "points": 6,
+        "gf": 9,
+        "ga": 2
       },
       {
         "team": "Ivory Coast",
         "group": "E",
-        "played": 1,
+        "played": 2,
         "wins": 1,
         "draws": 0,
-        "losses": 0,
+        "losses": 1,
         "points": 3,
-        "gf": 1,
-        "ga": 0
+        "gf": 2,
+        "ga": 2
       },
       {
         "team": "Ecuador",

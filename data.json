@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-19T23:39:42.733Z",
+  "lastUpdated": "2026-06-20T02:49:28.612Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -418,7 +418,7 @@
       "awayTeam": "Morocco",
       "homeScore": 0,
       "awayScore": 1,
-      "status": "live",
+      "status": "completed",
       "date": "2026-06-20",
       "time": "01:00",
       "group": "C",
@@ -430,9 +430,9 @@
       "id": 537341,
       "homeTeam": "Brazil",
       "awayTeam": "Haiti",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "upcoming",
+      "homeScore": 3,
+      "awayScore": 0,
+      "status": "completed",
       "date": "2026-06-20",
       "time": "03:30",
       "group": "C",
@@ -1604,48 +1604,48 @@
     ],
     "C": [
       {
-        "team": "Scotland",
-        "group": "C",
-        "played": 1,
-        "wins": 1,
-        "draws": 0,
-        "losses": 0,
-        "points": 3,
-        "gf": 1,
-        "ga": 0
-      },
-      {
         "team": "Brazil",
         "group": "C",
-        "played": 1,
-        "wins": 0,
+        "played": 2,
+        "wins": 1,
         "draws": 1,
         "losses": 0,
-        "points": 1,
-        "gf": 1,
+        "points": 4,
+        "gf": 4,
         "ga": 1
       },
       {
         "team": "Morocco",
         "group": "C",
-        "played": 1,
-        "wins": 0,
+        "played": 2,
+        "wins": 1,
         "draws": 1,
         "losses": 0,
-        "points": 1,
+        "points": 4,
+        "gf": 2,
+        "ga": 1
+      },
+      {
+        "team": "Scotland",
+        "group": "C",
+        "played": 2,
+        "wins": 1,
+        "draws": 0,
+        "losses": 1,
+        "points": 3,
         "gf": 1,
         "ga": 1
       },
       {
         "team": "Haiti",
         "group": "C",
-        "played": 1,
+        "played": 2,
         "wins": 0,
         "draws": 0,
-        "losses": 1,
+        "losses": 2,
         "points": 0,
         "gf": 0,
-        "ga": 1
+        "ga": 4
       }
     ],
     "E": [

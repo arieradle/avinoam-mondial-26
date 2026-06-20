@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-20T19:16:46.553Z",
+  "lastUpdated": "2026-06-20T20:48:58.408Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -472,9 +472,9 @@
       "id": 537353,
       "homeTeam": "Germany",
       "awayTeam": "Ivory Coast",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "upcoming",
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "live",
       "date": "2026-06-20",
       "time": "23:00",
       "group": "E",

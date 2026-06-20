@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-20T16:13:54.462Z",
+  "lastUpdated": "2026-06-20T17:53:17.529Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -458,9 +458,9 @@
       "id": 537359,
       "homeTeam": "Netherlands",
       "awayTeam": "Sweden",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "upcoming",
+      "homeScore": 2,
+      "awayScore": 0,
+      "status": "live",
       "date": "2026-06-20",
       "time": "20:00",
       "group": "F",

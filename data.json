@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-20T02:49:28.612Z",
+  "lastUpdated": "2026-06-20T06:58:02.670Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -444,9 +444,9 @@
       "id": 537347,
       "homeTeam": "Turkey",
       "awayTeam": "Paraguay",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "upcoming",
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "completed",
       "date": "2026-06-20",
       "time": "06:00",
       "group": "D",
@@ -1580,26 +1580,26 @@
         "ga": 2
       },
       {
-        "team": "Turkey",
-        "group": "D",
-        "played": 1,
-        "wins": 0,
-        "draws": 0,
-        "losses": 1,
-        "points": 0,
-        "gf": 0,
-        "ga": 2
-      },
-      {
         "team": "Paraguay",
         "group": "D",
-        "played": 1,
-        "wins": 0,
+        "played": 2,
+        "wins": 1,
         "draws": 0,
         "losses": 1,
-        "points": 0,
-        "gf": 1,
+        "points": 3,
+        "gf": 2,
         "ga": 4
+      },
+      {
+        "team": "Turkey",
+        "group": "D",
+        "played": 2,
+        "wins": 0,
+        "draws": 0,
+        "losses": 2,
+        "points": 0,
+        "gf": 0,
+        "ga": 3
       }
     ],
     "C": [

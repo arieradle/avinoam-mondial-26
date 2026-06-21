@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-20T23:43:21.775Z",
+  "lastUpdated": "2026-06-21T03:33:14.646Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -486,9 +486,9 @@
       "id": 537354,
       "homeTeam": "Ecuador",
       "awayTeam": "Curaçao",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "upcoming",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "completed",
       "date": "2026-06-21",
       "time": "03:00",
       "group": "E",
@@ -1674,22 +1674,22 @@
       {
         "team": "Ecuador",
         "group": "E",
-        "played": 1,
+        "played": 2,
         "wins": 0,
-        "draws": 0,
+        "draws": 1,
         "losses": 1,
-        "points": 0,
+        "points": 1,
         "gf": 0,
         "ga": 1
       },
       {
         "team": "Curaçao",
         "group": "E",
-        "played": 1,
+        "played": 2,
         "wins": 0,
-        "draws": 0,
+        "draws": 1,
         "losses": 1,
-        "points": 0,
+        "points": 1,
         "gf": 1,
         "ga": 7
       }

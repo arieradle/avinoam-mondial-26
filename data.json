@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-21T20:26:40.120Z",
+  "lastUpdated": "2026-06-21T21:53:33.460Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -514,7 +514,7 @@
       "id": 537371,
       "homeTeam": "Spain",
       "awayTeam": "Saudi Arabia",
-      "homeScore": 5,
+      "homeScore": 4,
       "awayScore": 0,
       "status": "completed",
       "date": "2026-06-21",
@@ -530,7 +530,7 @@
       "awayTeam": "Iran",
       "homeScore": 0,
       "awayScore": 0,
-      "status": "live",
+      "status": "completed",
       "date": "2026-06-21",
       "time": "22:00",
       "group": "G",
@@ -1749,7 +1749,7 @@
         "draws": 1,
         "losses": 0,
         "points": 4,
-        "gf": 5,
+        "gf": 4,
         "ga": 0
       },
       {
@@ -1783,20 +1783,31 @@
         "losses": 1,
         "points": 1,
         "gf": 1,
-        "ga": 6
+        "ga": 5
       }
     ],
     "G": [
       {
         "team": "Iran",
         "group": "G",
-        "played": 1,
+        "played": 2,
         "wins": 0,
-        "draws": 1,
+        "draws": 2,
         "losses": 0,
-        "points": 1,
+        "points": 2,
         "gf": 2,
         "ga": 2
+      },
+      {
+        "team": "Belgium",
+        "group": "G",
+        "played": 2,
+        "wins": 0,
+        "draws": 2,
+        "losses": 0,
+        "points": 2,
+        "gf": 1,
+        "ga": 1
       },
       {
         "team": "New Zealand",
@@ -1808,17 +1819,6 @@
         "points": 1,
         "gf": 2,
         "ga": 2
-      },
-      {
-        "team": "Belgium",
-        "group": "G",
-        "played": 1,
-        "wins": 0,
-        "draws": 1,
-        "losses": 0,
-        "points": 1,
-        "gf": 1,
-        "ga": 1
       },
       {
         "team": "Egypt",

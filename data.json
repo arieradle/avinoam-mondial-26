@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22T18:10:43.274Z",
+  "lastUpdated": "2026-06-22T21:19:26.289Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -570,9 +570,9 @@
       "id": 537399,
       "homeTeam": "Argentina",
       "awayTeam": "Austria",
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 0,
-      "status": "live",
+      "status": "completed",
       "date": "2026-06-22",
       "time": "20:00",
       "group": "J",
@@ -584,9 +584,9 @@
       "id": 537393,
       "homeTeam": "France",
       "awayTeam": "Iraq",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "upcoming",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "live",
       "date": "2026-06-23",
       "time": "00:00",
       "group": "I",
@@ -1882,24 +1882,24 @@
       {
         "team": "Argentina",
         "group": "J",
-        "played": 1,
-        "wins": 1,
+        "played": 2,
+        "wins": 2,
         "draws": 0,
         "losses": 0,
-        "points": 3,
-        "gf": 3,
+        "points": 6,
+        "gf": 5,
         "ga": 0
       },
       {
         "team": "Austria",
         "group": "J",
-        "played": 1,
+        "played": 2,
         "wins": 1,
         "draws": 0,
-        "losses": 0,
+        "losses": 1,
         "points": 3,
         "gf": 3,
-        "ga": 1
+        "ga": 3
       },
       {
         "team": "Jordan",

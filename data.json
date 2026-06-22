@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-21T23:06:39.369Z",
+  "lastUpdated": "2026-06-22T02:00:10.155Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -543,8 +543,8 @@
       "homeTeam": "Uruguay",
       "awayTeam": "Cape Verde",
       "homeScore": 2,
-      "awayScore": 1,
-      "status": "live",
+      "awayScore": 2,
+      "status": "completed",
       "date": "2026-06-22",
       "time": "01:00",
       "group": "H",
@@ -556,9 +556,9 @@
       "id": 537366,
       "homeTeam": "New Zealand",
       "awayTeam": "Egypt",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "upcoming",
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "live",
       "date": "2026-06-22",
       "time": "04:00",
       "group": "G",
@@ -1755,24 +1755,24 @@
       {
         "team": "Uruguay",
         "group": "H",
-        "played": 1,
+        "played": 2,
         "wins": 0,
-        "draws": 1,
+        "draws": 2,
         "losses": 0,
-        "points": 1,
-        "gf": 1,
-        "ga": 1
+        "points": 2,
+        "gf": 3,
+        "ga": 3
       },
       {
         "team": "Cape Verde",
         "group": "H",
-        "played": 1,
+        "played": 2,
         "wins": 0,
-        "draws": 1,
+        "draws": 2,
         "losses": 0,
-        "points": 1,
-        "gf": 0,
-        "ga": 0
+        "points": 2,
+        "gf": 2,
+        "ga": 2
       },
       {
         "team": "Saudi Arabia",

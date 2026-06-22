@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22T13:30:59.482Z",
+  "lastUpdated": "2026-06-22T18:10:43.274Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -570,9 +570,9 @@
       "id": 537399,
       "homeTeam": "Argentina",
       "awayTeam": "Austria",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "upcoming",
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "live",
       "date": "2026-06-22",
       "time": "20:00",
       "group": "J",

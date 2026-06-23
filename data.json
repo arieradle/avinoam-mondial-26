@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T22:45:19.635Z",
+  "lastUpdated": "2026-06-23T23:52:19.398Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -654,9 +654,9 @@
       "id": 537412,
       "homeTeam": "Panama",
       "awayTeam": "Croatia",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "upcoming",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "live",
       "date": "2026-06-24",
       "time": "02:00",
       "group": "L",
@@ -1044,7 +1044,7 @@
     },
     {
       "id": 537415,
-      "homeTeam": "Germany",
+      "homeTeam": "TBA",
       "awayTeam": "TBA",
       "homeScore": null,
       "awayScore": null,
@@ -1100,7 +1100,7 @@
     },
     {
       "id": 537425,
-      "homeTeam": "Mexico",
+      "homeTeam": "TBA",
       "awayTeam": "TBA",
       "homeScore": null,
       "awayScore": null,
@@ -1142,7 +1142,7 @@
     },
     {
       "id": 537421,
-      "homeTeam": "USA",
+      "homeTeam": "TBA",
       "awayTeam": "TBA",
       "homeScore": null,
       "awayScore": null,

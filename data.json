@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T04:39:02.845Z",
+  "lastUpdated": "2026-06-23T08:26:14.773Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -613,8 +613,8 @@
       "homeTeam": "Jordan",
       "awayTeam": "Algeria",
       "homeScore": 1,
-      "awayScore": 1,
-      "status": "live",
+      "awayScore": 2,
+      "status": "completed",
       "date": "2026-06-23",
       "time": "06:00",
       "group": "J",
@@ -1044,7 +1044,7 @@
     },
     {
       "id": 537415,
-      "homeTeam": "Germany",
+      "homeTeam": "TBA",
       "awayTeam": "TBA",
       "homeScore": null,
       "awayScore": null,
@@ -1100,7 +1100,7 @@
     },
     {
       "id": 537425,
-      "homeTeam": "Mexico",
+      "homeTeam": "TBA",
       "awayTeam": "TBA",
       "homeScore": null,
       "awayScore": null,
@@ -1142,7 +1142,7 @@
     },
     {
       "id": 537421,
-      "homeTeam": "USA",
+      "homeTeam": "TBA",
       "awayTeam": "TBA",
       "homeScore": null,
       "awayScore": null,
@@ -1902,26 +1902,26 @@
         "ga": 3
       },
       {
-        "team": "Jordan",
-        "group": "J",
-        "played": 1,
-        "wins": 0,
-        "draws": 0,
-        "losses": 1,
-        "points": 0,
-        "gf": 1,
-        "ga": 3
-      },
-      {
         "team": "Algeria",
         "group": "J",
-        "played": 1,
-        "wins": 0,
+        "played": 2,
+        "wins": 1,
         "draws": 0,
         "losses": 1,
+        "points": 3,
+        "gf": 2,
+        "ga": 4
+      },
+      {
+        "team": "Jordan",
+        "group": "J",
+        "played": 2,
+        "wins": 0,
+        "draws": 0,
+        "losses": 2,
         "points": 0,
-        "gf": 0,
-        "ga": 3
+        "gf": 2,
+        "ga": 5
       }
     ],
     "K": [

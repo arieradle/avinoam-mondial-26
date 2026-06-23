@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T21:17:16.528Z",
+  "lastUpdated": "2026-06-23T22:45:19.635Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -642,7 +642,7 @@
       "awayTeam": "Ghana",
       "homeScore": 0,
       "awayScore": 0,
-      "status": "live",
+      "status": "completed",
       "date": "2026-06-23",
       "time": "23:00",
       "group": "L",
@@ -1044,7 +1044,7 @@
     },
     {
       "id": 537415,
-      "homeTeam": "TBA",
+      "homeTeam": "Germany",
       "awayTeam": "TBA",
       "homeScore": null,
       "awayScore": null,
@@ -1100,7 +1100,7 @@
     },
     {
       "id": 537425,
-      "homeTeam": "TBA",
+      "homeTeam": "Mexico",
       "awayTeam": "TBA",
       "homeScore": null,
       "awayScore": null,
@@ -1142,7 +1142,7 @@
     },
     {
       "id": 537421,
-      "homeTeam": "TBA",
+      "homeTeam": "USA",
       "awayTeam": "TBA",
       "homeScore": null,
       "awayScore": null,
@@ -1974,22 +1974,22 @@
       {
         "team": "England",
         "group": "L",
-        "played": 1,
+        "played": 2,
         "wins": 1,
-        "draws": 0,
+        "draws": 1,
         "losses": 0,
-        "points": 3,
+        "points": 4,
         "gf": 4,
         "ga": 2
       },
       {
         "team": "Ghana",
         "group": "L",
-        "played": 1,
+        "played": 2,
         "wins": 1,
-        "draws": 0,
+        "draws": 1,
         "losses": 0,
-        "points": 3,
+        "points": 4,
         "gf": 1,
         "ga": 0
       },

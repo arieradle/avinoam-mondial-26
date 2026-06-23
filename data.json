@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T00:15:53.493Z",
+  "lastUpdated": "2026-06-23T04:39:02.845Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -584,9 +584,9 @@
       "id": 537393,
       "homeTeam": "France",
       "awayTeam": "Iraq",
-      "homeScore": 1,
+      "homeScore": 3,
       "awayScore": 0,
-      "status": "live",
+      "status": "completed",
       "date": "2026-06-23",
       "time": "00:00",
       "group": "I",
@@ -598,9 +598,9 @@
       "id": 537394,
       "homeTeam": "Norway",
       "awayTeam": "Senegal",
-      "homeScore": 0,
-      "awayScore": 0,
-      "status": "live",
+      "homeScore": 3,
+      "awayScore": 2,
+      "status": "completed",
       "date": "2026-06-23",
       "time": "03:00",
       "group": "I",
@@ -612,9 +612,9 @@
       "id": 537400,
       "homeTeam": "Jordan",
       "awayTeam": "Algeria",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "upcoming",
+      "homeScore": 1,
+      "awayScore": 1,
+      "status": "live",
       "date": "2026-06-23",
       "time": "06:00",
       "group": "J",
@@ -1044,7 +1044,7 @@
     },
     {
       "id": 537415,
-      "homeTeam": "TBA",
+      "homeTeam": "Germany",
       "awayTeam": "TBA",
       "homeScore": null,
       "awayScore": null,
@@ -1100,7 +1100,7 @@
     },
     {
       "id": 537425,
-      "homeTeam": "TBA",
+      "homeTeam": "Mexico",
       "awayTeam": "TBA",
       "homeScore": null,
       "awayScore": null,
@@ -1142,7 +1142,7 @@
     },
     {
       "id": 537421,
-      "homeTeam": "TBA",
+      "homeTeam": "USA",
       "awayTeam": "TBA",
       "homeScore": null,
       "awayScore": null,
@@ -1834,48 +1834,48 @@
     ],
     "I": [
       {
-        "team": "Norway",
+        "team": "France",
         "group": "I",
-        "played": 1,
-        "wins": 1,
+        "played": 2,
+        "wins": 2,
         "draws": 0,
         "losses": 0,
-        "points": 3,
-        "gf": 4,
+        "points": 6,
+        "gf": 6,
         "ga": 1
       },
       {
-        "team": "France",
+        "team": "Norway",
         "group": "I",
-        "played": 1,
-        "wins": 1,
+        "played": 2,
+        "wins": 2,
         "draws": 0,
         "losses": 0,
-        "points": 3,
-        "gf": 3,
-        "ga": 1
+        "points": 6,
+        "gf": 7,
+        "ga": 3
       },
       {
         "team": "Senegal",
         "group": "I",
-        "played": 1,
+        "played": 2,
         "wins": 0,
         "draws": 0,
-        "losses": 1,
+        "losses": 2,
         "points": 0,
-        "gf": 1,
-        "ga": 3
+        "gf": 3,
+        "ga": 6
       },
       {
         "team": "Iraq",
         "group": "I",
-        "played": 1,
+        "played": 2,
         "wins": 0,
         "draws": 0,
-        "losses": 1,
+        "losses": 2,
         "points": 0,
         "gf": 1,
-        "ga": 4
+        "ga": 7
       }
     ],
     "J": [

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22T23:00:08.077Z",
+  "lastUpdated": "2026-06-23T00:15:53.493Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -598,9 +598,9 @@
       "id": 537394,
       "homeTeam": "Norway",
       "awayTeam": "Senegal",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "upcoming",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "live",
       "date": "2026-06-23",
       "time": "03:00",
       "group": "I",

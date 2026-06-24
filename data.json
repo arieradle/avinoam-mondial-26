@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-24T02:44:02.405Z",
+  "lastUpdated": "2026-06-24T06:42:02.373Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -668,9 +668,9 @@
       "id": 537406,
       "homeTeam": "Colombia",
       "awayTeam": "Congo DR",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
-      "status": "live",
+      "status": "completed",
       "date": "2026-06-24",
       "time": "05:00",
       "group": "K",
@@ -1044,7 +1044,7 @@
     },
     {
       "id": 537415,
-      "homeTeam": "Germany",
+      "homeTeam": "TBA",
       "awayTeam": "TBA",
       "homeScore": null,
       "awayScore": null,
@@ -1100,7 +1100,7 @@
     },
     {
       "id": 537425,
-      "homeTeam": "Mexico",
+      "homeTeam": "TBA",
       "awayTeam": "TBA",
       "homeScore": null,
       "awayScore": null,
@@ -1142,7 +1142,7 @@
     },
     {
       "id": 537421,
-      "homeTeam": "USA",
+      "homeTeam": "TBA",
       "awayTeam": "TBA",
       "homeScore": null,
       "awayScore": null,
@@ -1212,7 +1212,7 @@
     },
     {
       "id": 537427,
-      "homeTeam": "Argentina",
+      "homeTeam": "TBA",
       "awayTeam": "TBA",
       "homeScore": null,
       "awayScore": null,
@@ -1926,6 +1926,17 @@
     ],
     "K": [
       {
+        "team": "Colombia",
+        "group": "K",
+        "played": 2,
+        "wins": 2,
+        "draws": 0,
+        "losses": 0,
+        "points": 6,
+        "gf": 4,
+        "ga": 1
+      },
+      {
         "team": "Portugal",
         "group": "K",
         "played": 2,
@@ -1937,26 +1948,15 @@
         "ga": 1
       },
       {
-        "team": "Colombia",
-        "group": "K",
-        "played": 1,
-        "wins": 1,
-        "draws": 0,
-        "losses": 0,
-        "points": 3,
-        "gf": 3,
-        "ga": 1
-      },
-      {
         "team": "Congo DR",
         "group": "K",
-        "played": 1,
+        "played": 2,
         "wins": 0,
         "draws": 1,
-        "losses": 0,
+        "losses": 1,
         "points": 1,
         "gf": 1,
-        "ga": 1
+        "ga": 2
       },
       {
         "team": "Uzbekistan",

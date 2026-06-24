@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-24T17:50:01.754Z",
+  "lastUpdated": "2026-06-24T19:29:35.630Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -682,9 +682,9 @@
       "id": 537337,
       "homeTeam": "Switzerland",
       "awayTeam": "Canada",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "upcoming",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "live",
       "date": "2026-06-24",
       "time": "22:00",
       "group": "B",
@@ -696,9 +696,9 @@
       "id": 537338,
       "homeTeam": "Bosnia-H.",
       "awayTeam": "Qatar",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "upcoming",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "live",
       "date": "2026-06-24",
       "time": "22:00",
       "group": "B",
@@ -1044,7 +1044,7 @@
     },
     {
       "id": 537415,
-      "homeTeam": "TBA",
+      "homeTeam": "Germany",
       "awayTeam": "TBA",
       "homeScore": null,
       "awayScore": null,
@@ -1100,7 +1100,7 @@
     },
     {
       "id": 537425,
-      "homeTeam": "TBA",
+      "homeTeam": "Mexico",
       "awayTeam": "TBA",
       "homeScore": null,
       "awayScore": null,
@@ -1142,7 +1142,7 @@
     },
     {
       "id": 537421,
-      "homeTeam": "TBA",
+      "homeTeam": "USA",
       "awayTeam": "TBA",
       "homeScore": null,
       "awayScore": null,
@@ -1212,7 +1212,7 @@
     },
     {
       "id": 537427,
-      "homeTeam": "TBA",
+      "homeTeam": "Argentina",
       "awayTeam": "TBA",
       "homeScore": null,
       "awayScore": null,

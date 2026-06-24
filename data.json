@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-24T19:29:35.630Z",
+  "lastUpdated": "2026-06-24T21:10:42.862Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -682,9 +682,9 @@
       "id": 537337,
       "homeTeam": "Switzerland",
       "awayTeam": "Canada",
-      "homeScore": 0,
-      "awayScore": 0,
-      "status": "live",
+      "homeScore": 2,
+      "awayScore": 1,
+      "status": "completed",
       "date": "2026-06-24",
       "time": "22:00",
       "group": "B",
@@ -696,9 +696,9 @@
       "id": 537338,
       "homeTeam": "Bosnia-H.",
       "awayTeam": "Qatar",
-      "homeScore": 0,
-      "awayScore": 0,
-      "status": "live",
+      "homeScore": 3,
+      "awayScore": 1,
+      "status": "completed",
       "date": "2026-06-24",
       "time": "22:00",
       "group": "B",
@@ -1044,7 +1044,7 @@
     },
     {
       "id": 537415,
-      "homeTeam": "Germany",
+      "homeTeam": "TBA",
       "awayTeam": "TBA",
       "homeScore": null,
       "awayScore": null,
@@ -1100,7 +1100,7 @@
     },
     {
       "id": 537425,
-      "homeTeam": "Mexico",
+      "homeTeam": "TBA",
       "awayTeam": "TBA",
       "homeScore": null,
       "awayScore": null,
@@ -1142,7 +1142,7 @@
     },
     {
       "id": 537421,
-      "homeTeam": "USA",
+      "homeTeam": "TBA",
       "awayTeam": "TBA",
       "homeScore": null,
       "awayScore": null,
@@ -1212,7 +1212,7 @@
     },
     {
       "id": 537427,
-      "homeTeam": "Argentina",
+      "homeTeam": "TBA",
       "awayTeam": "TBA",
       "homeScore": null,
       "awayScore": null,
@@ -1512,48 +1512,48 @@
     ],
     "B": [
       {
-        "team": "Canada",
-        "group": "B",
-        "played": 2,
-        "wins": 1,
-        "draws": 1,
-        "losses": 0,
-        "points": 4,
-        "gf": 7,
-        "ga": 1
-      },
-      {
         "team": "Switzerland",
         "group": "B",
-        "played": 2,
-        "wins": 1,
+        "played": 3,
+        "wins": 2,
         "draws": 1,
         "losses": 0,
+        "points": 7,
+        "gf": 7,
+        "ga": 3
+      },
+      {
+        "team": "Canada",
+        "group": "B",
+        "played": 3,
+        "wins": 1,
+        "draws": 1,
+        "losses": 1,
         "points": 4,
-        "gf": 5,
-        "ga": 2
+        "gf": 8,
+        "ga": 3
       },
       {
         "team": "Bosnia-H.",
         "group": "B",
-        "played": 2,
-        "wins": 0,
+        "played": 3,
+        "wins": 1,
         "draws": 1,
         "losses": 1,
-        "points": 1,
-        "gf": 2,
-        "ga": 5
+        "points": 4,
+        "gf": 5,
+        "ga": 6
       },
       {
         "team": "Qatar",
         "group": "B",
-        "played": 2,
+        "played": 3,
         "wins": 0,
         "draws": 1,
-        "losses": 1,
+        "losses": 2,
         "points": 1,
-        "gf": 1,
-        "ga": 7
+        "gf": 2,
+        "ga": 10
       }
     ],
     "D": [

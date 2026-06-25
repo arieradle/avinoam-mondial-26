@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-24T22:45:21.899Z",
+  "lastUpdated": "2026-06-25T00:04:18.818Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -710,8 +710,8 @@
       "id": 537344,
       "homeTeam": "Morocco",
       "awayTeam": "Haiti",
-      "homeScore": 1,
-      "awayScore": 1,
+      "homeScore": 4,
+      "awayScore": 2,
       "status": "live",
       "date": "2026-06-25",
       "time": "01:00",
@@ -725,7 +725,7 @@
       "homeTeam": "Scotland",
       "awayTeam": "Brazil",
       "homeScore": 0,
-      "awayScore": 2,
+      "awayScore": 3,
       "status": "live",
       "date": "2026-06-25",
       "time": "01:00",

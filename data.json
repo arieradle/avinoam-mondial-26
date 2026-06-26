@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-26T21:04:33.227Z",
+  "lastUpdated": "2026-06-26T22:42:57.687Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -866,7 +866,7 @@
       "awayTeam": "Iraq",
       "homeScore": 5,
       "awayScore": 0,
-      "status": "live",
+      "status": "completed",
       "date": "2026-06-26",
       "time": "22:00",
       "group": "I",
@@ -1858,24 +1858,24 @@
       {
         "team": "Senegal",
         "group": "I",
-        "played": 2,
-        "wins": 0,
+        "played": 3,
+        "wins": 1,
         "draws": 0,
         "losses": 2,
-        "points": 0,
-        "gf": 3,
+        "points": 3,
+        "gf": 8,
         "ga": 6
       },
       {
         "team": "Iraq",
         "group": "I",
-        "played": 2,
+        "played": 3,
         "wins": 0,
         "draws": 0,
-        "losses": 2,
+        "losses": 3,
         "points": 0,
         "gf": 1,
-        "ga": 7
+        "ga": 12
       }
     ],
     "J": [

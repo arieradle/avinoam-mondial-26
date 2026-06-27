@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T10:00:01.089Z",
+  "lastUpdated": "2026-06-27T11:41:21.184Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -1016,8 +1016,8 @@
     },
     {
       "id": 537417,
-      "homeTeam": "TBA",
-      "awayTeam": "TBA",
+      "homeTeam": "South Africa",
+      "awayTeam": "Canada",
       "homeScore": null,
       "awayScore": null,
       "status": "upcoming",
@@ -1030,8 +1030,8 @@
     },
     {
       "id": 537423,
-      "homeTeam": "TBA",
-      "awayTeam": "TBA",
+      "homeTeam": "Brazil",
+      "awayTeam": "Japan",
       "homeScore": null,
       "awayScore": null,
       "status": "upcoming",
@@ -1044,7 +1044,7 @@
     },
     {
       "id": 537415,
-      "homeTeam": "TBA",
+      "homeTeam": "Germany",
       "awayTeam": "TBA",
       "homeScore": null,
       "awayScore": null,
@@ -1058,8 +1058,8 @@
     },
     {
       "id": 537418,
-      "homeTeam": "TBA",
-      "awayTeam": "TBA",
+      "homeTeam": "Netherlands",
+      "awayTeam": "Morocco",
       "homeScore": null,
       "awayScore": null,
       "status": "upcoming",
@@ -1072,7 +1072,7 @@
     },
     {
       "id": 537424,
-      "homeTeam": "TBA",
+      "homeTeam": "Ivory Coast",
       "awayTeam": "TBA",
       "homeScore": null,
       "awayScore": null,
@@ -1100,7 +1100,7 @@
     },
     {
       "id": 537425,
-      "homeTeam": "TBA",
+      "homeTeam": "Mexico",
       "awayTeam": "TBA",
       "homeScore": null,
       "awayScore": null,
@@ -1142,8 +1142,8 @@
     },
     {
       "id": 537421,
-      "homeTeam": "TBA",
-      "awayTeam": "TBA",
+      "homeTeam": "USA",
+      "awayTeam": "Bosnia-H.",
       "homeScore": null,
       "awayScore": null,
       "status": "upcoming",
@@ -1184,7 +1184,7 @@
     },
     {
       "id": 537429,
-      "homeTeam": "TBA",
+      "homeTeam": "Switzerland",
       "awayTeam": "TBA",
       "homeScore": null,
       "awayScore": null,
@@ -1198,7 +1198,7 @@
     },
     {
       "id": 537428,
-      "homeTeam": "TBA",
+      "homeTeam": "Australia",
       "awayTeam": "TBA",
       "homeScore": null,
       "awayScore": null,
@@ -1212,7 +1212,7 @@
     },
     {
       "id": 537427,
-      "homeTeam": "TBA",
+      "homeTeam": "Argentina",
       "awayTeam": "TBA",
       "homeScore": null,
       "awayScore": null,

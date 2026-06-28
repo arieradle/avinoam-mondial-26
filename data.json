@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-28T18:01:19.431Z",
+  "lastUpdated": "2026-06-28T19:52:33.544Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -1018,9 +1018,9 @@
       "id": 537417,
       "homeTeam": "South Africa",
       "awayTeam": "Canada",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "upcoming",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "live",
       "date": "2026-06-28",
       "time": "22:00",
       "group": "",

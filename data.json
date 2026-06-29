@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29T22:51:03.037Z",
+  "lastUpdated": "2026-06-29T23:58:37.308Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -1046,9 +1046,9 @@
       "id": 537415,
       "homeTeam": "Germany",
       "awayTeam": "Paraguay",
-      "homeScore": 2,
-      "awayScore": 1,
-      "status": "live",
+      "homeScore": 5,
+      "awayScore": 6,
+      "status": "completed",
       "date": "2026-06-29",
       "time": "23:30",
       "group": "",
@@ -1558,6 +1558,17 @@
     ],
     "D": [
       {
+        "team": "Paraguay",
+        "group": "D",
+        "played": 4,
+        "wins": 2,
+        "draws": 1,
+        "losses": 1,
+        "points": 7,
+        "gf": 8,
+        "ga": 9
+      },
+      {
         "team": "USA",
         "group": "D",
         "played": 3,
@@ -1578,17 +1589,6 @@
         "points": 4,
         "gf": 2,
         "ga": 2
-      },
-      {
-        "team": "Paraguay",
-        "group": "D",
-        "played": 3,
-        "wins": 1,
-        "draws": 1,
-        "losses": 1,
-        "points": 4,
-        "gf": 2,
-        "ga": 4
       },
       {
         "team": "Turkey",
@@ -1652,13 +1652,13 @@
       {
         "team": "Germany",
         "group": "E",
-        "played": 3,
+        "played": 4,
         "wins": 2,
         "draws": 0,
-        "losses": 1,
+        "losses": 2,
         "points": 6,
-        "gf": 10,
-        "ga": 4
+        "gf": 15,
+        "ga": 10
       },
       {
         "team": "Ivory Coast",

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29T20:21:58.721Z",
+  "lastUpdated": "2026-06-29T21:50:47.509Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -1046,9 +1046,9 @@
       "id": 537415,
       "homeTeam": "Germany",
       "awayTeam": "Paraguay",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "upcoming",
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "live",
       "date": "2026-06-29",
       "time": "23:30",
       "group": "",

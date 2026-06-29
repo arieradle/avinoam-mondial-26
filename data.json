@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29T15:37:01.211Z",
+  "lastUpdated": "2026-06-29T18:05:46.938Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -1032,9 +1032,9 @@
       "id": 537423,
       "homeTeam": "Brazil",
       "awayTeam": "Japan",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "upcoming",
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "live",
       "date": "2026-06-29",
       "time": "20:00",
       "group": "",

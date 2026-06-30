@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T03:59:36.218Z",
+  "lastUpdated": "2026-06-30T07:57:48.095Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -1241,7 +1241,7 @@
     {
       "id": 537376,
       "homeTeam": "Canada",
-      "awayTeam": "TBA",
+      "awayTeam": "Morocco",
       "homeScore": null,
       "awayScore": null,
       "status": "upcoming",
@@ -1254,7 +1254,7 @@
     },
     {
       "id": 537375,
-      "homeTeam": "TBA",
+      "homeTeam": "Paraguay",
       "awayTeam": "TBA",
       "homeScore": null,
       "awayScore": null,
@@ -1268,7 +1268,7 @@
     },
     {
       "id": 537377,
-      "homeTeam": "TBA",
+      "homeTeam": "Brazil",
       "awayTeam": "TBA",
       "homeScore": null,
       "awayScore": null,

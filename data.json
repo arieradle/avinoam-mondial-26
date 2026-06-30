@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T20:27:09.754Z",
+  "lastUpdated": "2026-06-30T21:55:26.393Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -1088,9 +1088,9 @@
       "id": 537416,
       "homeTeam": "France",
       "awayTeam": "Sweden",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "upcoming",
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "live",
       "date": "2026-07-01",
       "time": "00:00",
       "group": "",

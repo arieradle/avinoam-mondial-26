@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T18:17:59.063Z",
+  "lastUpdated": "2026-06-30T20:27:09.754Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -1074,9 +1074,9 @@
       "id": 537424,
       "homeTeam": "Ivory Coast",
       "awayTeam": "Norway",
-      "homeScore": 0,
-      "awayScore": 1,
-      "status": "live",
+      "homeScore": 1,
+      "awayScore": 2,
+      "status": "completed",
       "date": "2026-06-30",
       "time": "20:00",
       "group": "",
@@ -1663,13 +1663,13 @@
       {
         "team": "Ivory Coast",
         "group": "E",
-        "played": 3,
+        "played": 4,
         "wins": 2,
         "draws": 0,
-        "losses": 1,
+        "losses": 2,
         "points": 6,
-        "gf": 4,
-        "ga": 2
+        "gf": 5,
+        "ga": 4
       },
       {
         "team": "Ecuador",
@@ -1847,13 +1847,13 @@
       {
         "team": "Norway",
         "group": "I",
-        "played": 3,
-        "wins": 2,
+        "played": 4,
+        "wins": 3,
         "draws": 0,
         "losses": 1,
-        "points": 6,
-        "gf": 8,
-        "ga": 7
+        "points": 9,
+        "gf": 10,
+        "ga": 8
       },
       {
         "team": "Senegal",

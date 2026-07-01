@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T23:06:15.900Z",
+  "lastUpdated": "2026-07-01T01:38:09.126Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -1102,9 +1102,9 @@
       "id": 537425,
       "homeTeam": "Mexico",
       "awayTeam": "Ecuador",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "upcoming",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "live",
       "date": "2026-07-01",
       "time": "04:00",
       "group": "",

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T18:23:15.273Z",
+  "lastUpdated": "2026-07-01T20:21:39.478Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -1130,9 +1130,9 @@
       "id": 537422,
       "homeTeam": "Belgium",
       "awayTeam": "Senegal",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "upcoming",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "live",
       "date": "2026-07-01",
       "time": "23:00",
       "group": "",

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T21:58:14.857Z",
+  "lastUpdated": "2026-07-01T23:18:15.952Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -1130,9 +1130,9 @@
       "id": 537422,
       "homeTeam": "Belgium",
       "awayTeam": "Senegal",
-      "homeScore": 2,
+      "homeScore": 3,
       "awayScore": 2,
-      "status": "live",
+      "status": "completed",
       "date": "2026-07-01",
       "time": "23:00",
       "group": "",
@@ -1790,13 +1790,13 @@
       {
         "team": "Belgium",
         "group": "G",
-        "played": 3,
-        "wins": 1,
+        "played": 4,
+        "wins": 2,
         "draws": 2,
         "losses": 0,
-        "points": 5,
-        "gf": 6,
-        "ga": 2
+        "points": 8,
+        "gf": 9,
+        "ga": 4
       },
       {
         "team": "Egypt",
@@ -1858,13 +1858,13 @@
       {
         "team": "Senegal",
         "group": "I",
-        "played": 3,
+        "played": 4,
         "wins": 1,
         "draws": 0,
-        "losses": 2,
+        "losses": 3,
         "points": 3,
-        "gf": 8,
-        "ga": 6
+        "gf": 10,
+        "ga": 9
       },
       {
         "team": "Iraq",

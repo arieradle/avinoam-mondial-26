@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T23:18:15.952Z",
+  "lastUpdated": "2026-07-02T01:30:24.372Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -1144,9 +1144,9 @@
       "id": 537421,
       "homeTeam": "USA",
       "awayTeam": "Bosnia-H.",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "upcoming",
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "live",
       "date": "2026-07-02",
       "time": "03:00",
       "group": "",

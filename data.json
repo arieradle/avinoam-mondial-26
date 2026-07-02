@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-02T01:30:24.372Z",
+  "lastUpdated": "2026-07-02T05:54:12.455Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -1106,7 +1106,7 @@
       "awayScore": 0,
       "status": "completed",
       "date": "2026-07-01",
-      "time": "04:00",
+      "time": "05:00",
       "group": "",
       "stage": "LAST_32",
       "matchday": null,
@@ -1144,9 +1144,9 @@
       "id": 537421,
       "homeTeam": "USA",
       "awayTeam": "Bosnia-H.",
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 0,
-      "status": "live",
+      "status": "completed",
       "date": "2026-07-02",
       "time": "03:00",
       "group": "",
@@ -1536,13 +1536,13 @@
       {
         "team": "Bosnia-H.",
         "group": "B",
-        "played": 3,
+        "played": 4,
         "wins": 1,
         "draws": 1,
-        "losses": 1,
+        "losses": 2,
         "points": 4,
         "gf": 5,
-        "ga": 6
+        "ga": 8
       },
       {
         "team": "Qatar",
@@ -1558,6 +1558,17 @@
     ],
     "D": [
       {
+        "team": "USA",
+        "group": "D",
+        "played": 4,
+        "wins": 3,
+        "draws": 0,
+        "losses": 1,
+        "points": 9,
+        "gf": 10,
+        "ga": 4
+      },
+      {
         "team": "Paraguay",
         "group": "D",
         "played": 4,
@@ -1567,17 +1578,6 @@
         "points": 7,
         "gf": 7,
         "ga": 8
-      },
-      {
-        "team": "USA",
-        "group": "D",
-        "played": 3,
-        "wins": 2,
-        "draws": 0,
-        "losses": 1,
-        "points": 6,
-        "gf": 8,
-        "ga": 4
       },
       {
         "team": "Australia",

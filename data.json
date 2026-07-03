@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T20:36:51.255Z",
+  "lastUpdated": "2026-07-03T22:01:04.755Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -1200,9 +1200,9 @@
       "id": 537428,
       "homeTeam": "Australia",
       "awayTeam": "Egypt",
-      "homeScore": 1,
-      "awayScore": 1,
-      "status": "live",
+      "homeScore": 3,
+      "awayScore": 5,
+      "status": "completed",
       "date": "2026-07-03",
       "time": "21:00",
       "group": "",
@@ -1582,13 +1582,13 @@
       {
         "team": "Australia",
         "group": "D",
-        "played": 3,
+        "played": 4,
         "wins": 1,
         "draws": 1,
-        "losses": 1,
+        "losses": 2,
         "points": 4,
-        "gf": 2,
-        "ga": 2
+        "gf": 5,
+        "ga": 7
       },
       {
         "team": "Turkey",
@@ -1801,13 +1801,13 @@
       {
         "team": "Egypt",
         "group": "G",
-        "played": 3,
-        "wins": 1,
+        "played": 4,
+        "wins": 2,
         "draws": 2,
         "losses": 0,
-        "points": 5,
-        "gf": 5,
-        "ga": 3
+        "points": 8,
+        "gf": 10,
+        "ga": 6
       },
       {
         "team": "Iran",

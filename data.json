@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T22:01:04.755Z",
+  "lastUpdated": "2026-07-03T23:33:07.843Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -1214,9 +1214,9 @@
       "id": 537427,
       "homeTeam": "Argentina",
       "awayTeam": "Cape Verde",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "upcoming",
+      "homeScore": 1,
+      "awayScore": 1,
+      "status": "live",
       "date": "2026-07-04",
       "time": "01:00",
       "group": "",

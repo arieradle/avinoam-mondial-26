@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-02T23:35:10.753Z",
+  "lastUpdated": "2026-07-03T02:26:31.093Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -1172,9 +1172,9 @@
       "id": 537419,
       "homeTeam": "Portugal",
       "awayTeam": "Croatia",
-      "homeScore": 0,
-      "awayScore": 0,
-      "status": "live",
+      "homeScore": 2,
+      "awayScore": 1,
+      "status": "completed",
       "date": "2026-07-03",
       "time": "02:00",
       "group": "",
@@ -1926,6 +1926,17 @@
     ],
     "K": [
       {
+        "team": "Portugal",
+        "group": "K",
+        "played": 4,
+        "wins": 2,
+        "draws": 2,
+        "losses": 0,
+        "points": 8,
+        "gf": 8,
+        "ga": 2
+      },
+      {
         "team": "Colombia",
         "group": "K",
         "played": 3,
@@ -1934,17 +1945,6 @@
         "losses": 0,
         "points": 7,
         "gf": 4,
-        "ga": 1
-      },
-      {
-        "team": "Portugal",
-        "group": "K",
-        "played": 3,
-        "wins": 1,
-        "draws": 2,
-        "losses": 0,
-        "points": 5,
-        "gf": 6,
         "ga": 1
       },
       {
@@ -1985,13 +1985,13 @@
       {
         "team": "Croatia",
         "group": "L",
-        "played": 3,
+        "played": 4,
         "wins": 2,
         "draws": 0,
-        "losses": 1,
+        "losses": 2,
         "points": 6,
-        "gf": 5,
-        "ga": 5
+        "gf": 6,
+        "ga": 7
       },
       {
         "team": "Ghana",

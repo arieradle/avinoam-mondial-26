@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-04T18:05:00.094Z",
+  "lastUpdated": "2026-07-04T19:43:25.587Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -1243,8 +1243,8 @@
       "homeTeam": "Canada",
       "awayTeam": "Morocco",
       "homeScore": 0,
-      "awayScore": 0,
-      "status": "live",
+      "awayScore": 3,
+      "status": "completed",
       "date": "2026-07-04",
       "time": "20:00",
       "group": "",
@@ -1525,13 +1525,13 @@
       {
         "team": "Canada",
         "group": "B",
-        "played": 4,
+        "played": 5,
         "wins": 2,
         "draws": 1,
-        "losses": 1,
+        "losses": 2,
         "points": 7,
         "gf": 9,
-        "ga": 3
+        "ga": 6
       },
       {
         "team": "Bosnia-H.",
@@ -1604,6 +1604,17 @@
     ],
     "C": [
       {
+        "team": "Morocco",
+        "group": "C",
+        "played": 5,
+        "wins": 4,
+        "draws": 1,
+        "losses": 0,
+        "points": 13,
+        "gf": 13,
+        "ga": 6
+      },
+      {
         "team": "Brazil",
         "group": "C",
         "played": 4,
@@ -1613,17 +1624,6 @@
         "points": 10,
         "gf": 9,
         "ga": 2
-      },
-      {
-        "team": "Morocco",
-        "group": "C",
-        "played": 4,
-        "wins": 3,
-        "draws": 1,
-        "losses": 0,
-        "points": 10,
-        "gf": 10,
-        "ga": 6
       },
       {
         "team": "Scotland",

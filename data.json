@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-04T20:49:57.180Z",
+  "lastUpdated": "2026-07-04T21:53:11.089Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -1256,9 +1256,9 @@
       "id": 537375,
       "homeTeam": "Paraguay",
       "awayTeam": "France",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "upcoming",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "live",
       "date": "2026-07-05",
       "time": "00:00",
       "group": "",

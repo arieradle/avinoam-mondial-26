@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T23:33:07.843Z",
+  "lastUpdated": "2026-07-04T02:24:35.488Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -1214,9 +1214,9 @@
       "id": 537427,
       "homeTeam": "Argentina",
       "awayTeam": "Cape Verde",
-      "homeScore": 1,
-      "awayScore": 1,
-      "status": "live",
+      "homeScore": 3,
+      "awayScore": 2,
+      "status": "completed",
       "date": "2026-07-04",
       "time": "01:00",
       "group": "",
@@ -1228,9 +1228,9 @@
       "id": 537430,
       "homeTeam": "Colombia",
       "awayTeam": "Ghana",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "upcoming",
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "live",
       "date": "2026-07-04",
       "time": "04:30",
       "group": "",
@@ -1755,13 +1755,13 @@
       {
         "team": "Cape Verde",
         "group": "H",
-        "played": 3,
+        "played": 4,
         "wins": 0,
         "draws": 3,
-        "losses": 0,
+        "losses": 1,
         "points": 3,
-        "gf": 2,
-        "ga": 2
+        "gf": 4,
+        "ga": 5
       },
       {
         "team": "Uruguay",
@@ -1882,13 +1882,13 @@
       {
         "team": "Argentina",
         "group": "J",
-        "played": 3,
-        "wins": 3,
+        "played": 4,
+        "wins": 4,
         "draws": 0,
         "losses": 0,
-        "points": 9,
-        "gf": 8,
-        "ga": 1
+        "points": 12,
+        "gf": 11,
+        "ga": 3
       },
       {
         "team": "Austria",

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-04T22:52:55.561Z",
+  "lastUpdated": "2026-07-04T23:56:56.601Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -1258,7 +1258,7 @@
       "awayTeam": "France",
       "homeScore": 0,
       "awayScore": 1,
-      "status": "live",
+      "status": "completed",
       "date": "2026-07-05",
       "time": "00:00",
       "group": "",
@@ -1571,13 +1571,13 @@
       {
         "team": "Paraguay",
         "group": "D",
-        "played": 4,
+        "played": 5,
         "wins": 2,
         "draws": 1,
-        "losses": 1,
+        "losses": 2,
         "points": 7,
         "gf": 7,
-        "ga": 8
+        "ga": 9
       },
       {
         "team": "Australia",
@@ -1836,12 +1836,12 @@
       {
         "team": "France",
         "group": "I",
-        "played": 4,
-        "wins": 4,
+        "played": 5,
+        "wins": 5,
         "draws": 0,
         "losses": 0,
-        "points": 12,
-        "gf": 13,
+        "points": 15,
+        "gf": 14,
         "ga": 2
       },
       {

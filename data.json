@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-04T16:58:39.257Z",
+  "lastUpdated": "2026-07-04T18:05:00.094Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -1242,9 +1242,9 @@
       "id": 537376,
       "homeTeam": "Canada",
       "awayTeam": "Morocco",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "upcoming",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "live",
       "date": "2026-07-04",
       "time": "20:00",
       "group": "",

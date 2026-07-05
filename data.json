@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-05T18:35:31.384Z",
+  "lastUpdated": "2026-07-05T20:09:54.381Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -1270,9 +1270,9 @@
       "id": 537377,
       "homeTeam": "Brazil",
       "awayTeam": "Norway",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "upcoming",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "live",
       "date": "2026-07-05",
       "time": "23:00",
       "group": "",

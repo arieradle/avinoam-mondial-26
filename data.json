@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-05T21:33:01.475Z",
+  "lastUpdated": "2026-07-05T22:57:13.200Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -1270,9 +1270,9 @@
       "id": 537377,
       "homeTeam": "Brazil",
       "awayTeam": "Norway",
-      "homeScore": 0,
-      "awayScore": 0,
-      "status": "live",
+      "homeScore": 1,
+      "awayScore": 2,
+      "status": "completed",
       "date": "2026-07-05",
       "time": "23:00",
       "group": "",
@@ -1617,13 +1617,13 @@
       {
         "team": "Brazil",
         "group": "C",
-        "played": 4,
+        "played": 5,
         "wins": 3,
         "draws": 1,
-        "losses": 0,
+        "losses": 1,
         "points": 10,
-        "gf": 9,
-        "ga": 2
+        "gf": 10,
+        "ga": 4
       },
       {
         "team": "Scotland",
@@ -1847,13 +1847,13 @@
       {
         "team": "Norway",
         "group": "I",
-        "played": 4,
-        "wins": 3,
+        "played": 5,
+        "wins": 4,
         "draws": 0,
         "losses": 1,
-        "points": 9,
-        "gf": 10,
-        "ga": 8
+        "points": 12,
+        "gf": 12,
+        "ga": 9
       },
       {
         "team": "Senegal",

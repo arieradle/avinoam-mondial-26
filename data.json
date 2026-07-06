@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-06T18:24:49.546Z",
+  "lastUpdated": "2026-07-06T20:21:50.213Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -1298,9 +1298,9 @@
       "id": 537379,
       "homeTeam": "Portugal",
       "awayTeam": "Spain",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "upcoming",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "live",
       "date": "2026-07-06",
       "time": "22:00",
       "group": "",

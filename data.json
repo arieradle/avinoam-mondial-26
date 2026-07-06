@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-06T20:21:50.213Z",
+  "lastUpdated": "2026-07-06T21:53:47.739Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -1299,8 +1299,8 @@
       "homeTeam": "Portugal",
       "awayTeam": "Spain",
       "homeScore": 0,
-      "awayScore": 0,
-      "status": "live",
+      "awayScore": 1,
+      "status": "completed",
       "date": "2026-07-06",
       "time": "22:00",
       "group": "",
@@ -1744,12 +1744,12 @@
       {
         "team": "Spain",
         "group": "H",
-        "played": 4,
-        "wins": 3,
+        "played": 5,
+        "wins": 4,
         "draws": 1,
         "losses": 0,
-        "points": 10,
-        "gf": 8,
+        "points": 13,
+        "gf": 9,
         "ga": 0
       },
       {
@@ -1939,13 +1939,13 @@
       {
         "team": "Portugal",
         "group": "K",
-        "played": 4,
+        "played": 5,
         "wins": 2,
         "draws": 2,
-        "losses": 0,
+        "losses": 1,
         "points": 8,
         "gf": 8,
-        "ga": 2
+        "ga": 3
       },
       {
         "team": "Congo DR",

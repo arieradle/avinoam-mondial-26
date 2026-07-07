@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-06T23:01:58.024Z",
+  "lastUpdated": "2026-07-07T01:14:57.643Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -1312,9 +1312,9 @@
       "id": 537380,
       "homeTeam": "USA",
       "awayTeam": "Belgium",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "upcoming",
+      "homeScore": 1,
+      "awayScore": 2,
+      "status": "live",
       "date": "2026-07-07",
       "time": "03:00",
       "group": "",

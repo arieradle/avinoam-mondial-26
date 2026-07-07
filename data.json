@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-07T22:35:45.374Z",
+  "lastUpdated": "2026-07-07T23:53:37.350Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -1340,9 +1340,9 @@
       "id": 537382,
       "homeTeam": "Switzerland",
       "awayTeam": "Colombia",
-      "homeScore": 0,
-      "awayScore": 0,
-      "status": "live",
+      "homeScore": 4,
+      "awayScore": 3,
+      "status": "completed",
       "date": "2026-07-07",
       "time": "23:00",
       "group": "",
@@ -1514,13 +1514,13 @@
       {
         "team": "Switzerland",
         "group": "B",
-        "played": 4,
-        "wins": 3,
+        "played": 5,
+        "wins": 4,
         "draws": 1,
         "losses": 0,
-        "points": 10,
-        "gf": 9,
-        "ga": 3
+        "points": 13,
+        "gf": 13,
+        "ga": 6
       },
       {
         "team": "Canada",
@@ -1928,13 +1928,13 @@
       {
         "team": "Colombia",
         "group": "K",
-        "played": 4,
+        "played": 5,
         "wins": 3,
         "draws": 1,
-        "losses": 0,
+        "losses": 1,
         "points": 10,
-        "gf": 5,
-        "ga": 1
+        "gf": 8,
+        "ga": 5
       },
       {
         "team": "Portugal",

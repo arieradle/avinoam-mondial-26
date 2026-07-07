@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-07T01:14:57.643Z",
+  "lastUpdated": "2026-07-07T05:31:05.842Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -1313,8 +1313,8 @@
       "homeTeam": "USA",
       "awayTeam": "Belgium",
       "homeScore": 1,
-      "awayScore": 2,
-      "status": "live",
+      "awayScore": 4,
+      "status": "completed",
       "date": "2026-07-07",
       "time": "03:00",
       "group": "",
@@ -1560,13 +1560,13 @@
       {
         "team": "USA",
         "group": "D",
-        "played": 4,
+        "played": 5,
         "wins": 3,
         "draws": 0,
-        "losses": 1,
+        "losses": 2,
         "points": 9,
-        "gf": 10,
-        "ga": 4
+        "gf": 11,
+        "ga": 8
       },
       {
         "team": "Paraguay",
@@ -1790,13 +1790,13 @@
       {
         "team": "Belgium",
         "group": "G",
-        "played": 4,
-        "wins": 2,
+        "played": 5,
+        "wins": 3,
         "draws": 2,
         "losses": 0,
-        "points": 8,
-        "gf": 9,
-        "ga": 4
+        "points": 11,
+        "gf": 13,
+        "ga": 5
       },
       {
         "team": "Egypt",

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-07T15:23:38.391Z",
+  "lastUpdated": "2026-07-07T17:31:35.332Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -1326,9 +1326,9 @@
       "id": 537381,
       "homeTeam": "Argentina",
       "awayTeam": "Egypt",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "upcoming",
+      "homeScore": 0,
+      "awayScore": 2,
+      "status": "live",
       "date": "2026-07-07",
       "time": "19:00",
       "group": "",

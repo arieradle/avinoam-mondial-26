@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-07T19:47:04.555Z",
+  "lastUpdated": "2026-07-07T21:18:26.611Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -1340,9 +1340,9 @@
       "id": 537382,
       "homeTeam": "Switzerland",
       "awayTeam": "Colombia",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "upcoming",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "live",
       "date": "2026-07-07",
       "time": "23:00",
       "group": "",

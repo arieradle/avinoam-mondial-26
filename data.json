@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09T20:43:12.991Z",
+  "lastUpdated": "2026-07-09T22:16:50.518Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -1354,9 +1354,9 @@
       "id": 537383,
       "homeTeam": "France",
       "awayTeam": "Morocco",
-      "homeScore": 0,
+      "homeScore": 2,
       "awayScore": 0,
-      "status": "live",
+      "status": "completed",
       "date": "2026-07-09",
       "time": "23:00",
       "group": "",
@@ -1606,13 +1606,13 @@
       {
         "team": "Morocco",
         "group": "C",
-        "played": 5,
+        "played": 6,
         "wins": 4,
         "draws": 1,
-        "losses": 0,
+        "losses": 1,
         "points": 13,
         "gf": 13,
-        "ga": 6
+        "ga": 8
       },
       {
         "team": "Brazil",
@@ -1836,12 +1836,12 @@
       {
         "team": "France",
         "group": "I",
-        "played": 5,
-        "wins": 5,
+        "played": 6,
+        "wins": 6,
         "draws": 0,
         "losses": 0,
-        "points": 15,
-        "gf": 14,
+        "points": 18,
+        "gf": 16,
         "ga": 2
       },
       {

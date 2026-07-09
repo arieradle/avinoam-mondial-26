@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09T18:52:45.947Z",
+  "lastUpdated": "2026-07-09T20:43:12.991Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -1354,9 +1354,9 @@
       "id": 537383,
       "homeTeam": "France",
       "awayTeam": "Morocco",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "upcoming",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "live",
       "date": "2026-07-09",
       "time": "23:00",
       "group": "",

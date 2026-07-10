@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-10T20:22:24.836Z",
+  "lastUpdated": "2026-07-10T21:33:33.091Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -1368,9 +1368,9 @@
       "id": 537384,
       "homeTeam": "Spain",
       "awayTeam": "Belgium",
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 1,
-      "status": "live",
+      "status": "completed",
       "date": "2026-07-10",
       "time": "22:00",
       "group": "",
@@ -1744,13 +1744,13 @@
       {
         "team": "Spain",
         "group": "H",
-        "played": 5,
-        "wins": 4,
+        "played": 6,
+        "wins": 5,
         "draws": 1,
         "losses": 0,
-        "points": 13,
-        "gf": 9,
-        "ga": 0
+        "points": 16,
+        "gf": 11,
+        "ga": 1
       },
       {
         "team": "Cape Verde",
@@ -1790,13 +1790,13 @@
       {
         "team": "Belgium",
         "group": "G",
-        "played": 5,
+        "played": 6,
         "wins": 3,
         "draws": 2,
-        "losses": 0,
+        "losses": 1,
         "points": 11,
-        "gf": 13,
-        "ga": 5
+        "gf": 14,
+        "ga": 7
       },
       {
         "team": "Egypt",

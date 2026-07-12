@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-12T01:02:00.533Z",
+  "lastUpdated": "2026-07-12T04:48:38.882Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -1396,9 +1396,9 @@
       "id": 537386,
       "homeTeam": "Argentina",
       "awayTeam": "Switzerland",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "upcoming",
+      "homeScore": 3,
+      "awayScore": 1,
+      "status": "completed",
       "date": "2026-07-12",
       "time": "04:00",
       "group": "",
@@ -1514,13 +1514,13 @@
       {
         "team": "Switzerland",
         "group": "B",
-        "played": 5,
+        "played": 6,
         "wins": 4,
         "draws": 1,
-        "losses": 0,
+        "losses": 1,
         "points": 13,
-        "gf": 13,
-        "ga": 6
+        "gf": 14,
+        "ga": 9
       },
       {
         "team": "Canada",
@@ -1882,13 +1882,13 @@
       {
         "team": "Argentina",
         "group": "J",
-        "played": 5,
-        "wins": 5,
+        "played": 6,
+        "wins": 6,
         "draws": 0,
         "losses": 0,
-        "points": 15,
-        "gf": 14,
-        "ga": 5
+        "points": 18,
+        "gf": 17,
+        "ga": 6
       },
       {
         "team": "Austria",

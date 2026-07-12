@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-12T04:48:38.882Z",
+  "lastUpdated": "2026-07-12T07:25:36.981Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -1286,7 +1286,7 @@
       "awayTeam": "England",
       "homeScore": 2,
       "awayScore": 3,
-      "status": "upcoming",
+      "status": "completed",
       "date": "2026-07-06",
       "time": "04:00",
       "group": "",
@@ -1422,8 +1422,8 @@
     },
     {
       "id": 537388,
-      "homeTeam": "TBA",
-      "awayTeam": "TBA",
+      "homeTeam": "England",
+      "awayTeam": "Argentina",
       "homeScore": null,
       "awayScore": null,
       "status": "upcoming",
@@ -1468,13 +1468,13 @@
       {
         "team": "Mexico",
         "group": "A",
-        "played": 4,
+        "played": 5,
         "wins": 4,
         "draws": 0,
-        "losses": 0,
+        "losses": 1,
         "points": 12,
-        "gf": 8,
-        "ga": 0
+        "gf": 10,
+        "ga": 3
       },
       {
         "team": "South Africa",
@@ -1974,13 +1974,13 @@
       {
         "team": "England",
         "group": "L",
-        "played": 5,
-        "wins": 4,
+        "played": 6,
+        "wins": 5,
         "draws": 1,
         "losses": 0,
-        "points": 13,
-        "gf": 10,
-        "ga": 4
+        "points": 16,
+        "gf": 13,
+        "ga": 6
       },
       {
         "team": "Croatia",

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-11T23:23:57.768Z",
+  "lastUpdated": "2026-07-12T01:02:00.533Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -1384,7 +1384,7 @@
       "awayTeam": "England",
       "homeScore": 1,
       "awayScore": 2,
-      "status": "live",
+      "status": "completed",
       "date": "2026-07-12",
       "time": "00:00",
       "group": "",
@@ -1847,13 +1847,13 @@
       {
         "team": "Norway",
         "group": "I",
-        "played": 5,
+        "played": 6,
         "wins": 4,
         "draws": 0,
-        "losses": 1,
+        "losses": 2,
         "points": 12,
-        "gf": 12,
-        "ga": 9
+        "gf": 13,
+        "ga": 11
       },
       {
         "team": "Senegal",
@@ -1974,13 +1974,13 @@
       {
         "team": "England",
         "group": "L",
-        "played": 4,
-        "wins": 3,
+        "played": 5,
+        "wins": 4,
         "draws": 1,
         "losses": 0,
-        "points": 10,
-        "gf": 8,
-        "ga": 3
+        "points": 13,
+        "gf": 10,
+        "ga": 4
       },
       {
         "team": "Croatia",

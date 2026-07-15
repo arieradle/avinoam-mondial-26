@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-15T20:30:52.412Z",
+  "lastUpdated": "2026-07-15T21:53:35.099Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -1425,8 +1425,8 @@
       "homeTeam": "England",
       "awayTeam": "Argentina",
       "homeScore": 1,
-      "awayScore": 0,
-      "status": "live",
+      "awayScore": 2,
+      "status": "completed",
       "date": "2026-07-15",
       "time": "22:00",
       "group": "",
@@ -1882,13 +1882,13 @@
       {
         "team": "Argentina",
         "group": "J",
-        "played": 6,
-        "wins": 6,
+        "played": 7,
+        "wins": 7,
         "draws": 0,
         "losses": 0,
-        "points": 18,
-        "gf": 17,
-        "ga": 6
+        "points": 21,
+        "gf": 19,
+        "ga": 7
       },
       {
         "team": "Austria",
@@ -1974,13 +1974,13 @@
       {
         "team": "England",
         "group": "L",
-        "played": 6,
+        "played": 7,
         "wins": 5,
         "draws": 1,
-        "losses": 0,
+        "losses": 1,
         "points": 16,
-        "gf": 13,
-        "ga": 6
+        "gf": 14,
+        "ga": 8
       },
       {
         "team": "Croatia",

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-16T05:23:27.503Z",
+  "lastUpdated": "2026-07-16T07:34:35.609Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -1437,7 +1437,7 @@
     {
       "id": 537389,
       "homeTeam": "France",
-      "awayTeam": "TBA",
+      "awayTeam": "England",
       "homeScore": null,
       "awayScore": null,
       "status": "upcoming",
@@ -1451,7 +1451,7 @@
     {
       "id": 537390,
       "homeTeam": "Spain",
-      "awayTeam": "TBA",
+      "awayTeam": "Argentina",
       "homeScore": null,
       "awayScore": null,
       "status": "upcoming",

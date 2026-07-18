@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-18T22:12:46.767Z",
+  "lastUpdated": "2026-07-18T23:24:04.738Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -1438,9 +1438,9 @@
       "id": 537389,
       "homeTeam": "France",
       "awayTeam": "England",
-      "homeScore": 0,
-      "awayScore": 4,
-      "status": "live",
+      "homeScore": 4,
+      "awayScore": 6,
+      "status": "completed",
       "date": "2026-07-19",
       "time": "00:00",
       "group": "",
@@ -1836,13 +1836,13 @@
       {
         "team": "France",
         "group": "I",
-        "played": 7,
+        "played": 8,
         "wins": 6,
         "draws": 0,
-        "losses": 1,
+        "losses": 2,
         "points": 18,
-        "gf": 16,
-        "ga": 4
+        "gf": 20,
+        "ga": 10
       },
       {
         "team": "Norway",
@@ -1974,13 +1974,13 @@
       {
         "team": "England",
         "group": "L",
-        "played": 7,
-        "wins": 5,
+        "played": 8,
+        "wins": 6,
         "draws": 1,
         "losses": 1,
-        "points": 16,
-        "gf": 14,
-        "ga": 8
+        "points": 19,
+        "gf": 20,
+        "ga": 12
       },
       {
         "team": "Croatia",

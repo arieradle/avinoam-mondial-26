@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-19T21:14:04.571Z",
+  "lastUpdated": "2026-07-19T22:23:22.031Z",
   "favorites": [
     "Argentina",
     "Spain",
@@ -1452,9 +1452,9 @@
       "id": 537390,
       "homeTeam": "Spain",
       "awayTeam": "Argentina",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
-      "status": "live",
+      "status": "completed",
       "date": "2026-07-19",
       "time": "22:00",
       "group": "",
@@ -1744,12 +1744,12 @@
       {
         "team": "Spain",
         "group": "H",
-        "played": 7,
-        "wins": 6,
+        "played": 8,
+        "wins": 7,
         "draws": 1,
         "losses": 0,
-        "points": 19,
-        "gf": 13,
+        "points": 22,
+        "gf": 14,
         "ga": 1
       },
       {
@@ -1882,13 +1882,13 @@
       {
         "team": "Argentina",
         "group": "J",
-        "played": 7,
+        "played": 8,
         "wins": 7,
         "draws": 0,
-        "losses": 0,
+        "losses": 1,
         "points": 21,
         "gf": 19,
-        "ga": 7
+        "ga": 8
       },
       {
         "team": "Austria",
